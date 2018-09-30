@@ -1,18 +1,13 @@
 import ROLES from '../constants/roles';
+import Role from '../components/Role';
 
 const Roles = () => (
   <div>
     <h1>Roles</h1>
     <div>
-      {Object.keys(ROLES).map((roleKey) => {
-        const role = ROLES[roleKey];
-        return (
-          <div key={roleKey}>
-            <h2>{role.title}</h2>
-            <p>{role.description}</p>
-          </div>
-        );
-      })}
+      {Object.keys(ROLES).map(roleKey => (
+        <Role key={roleKey} roleKey={roleKey} />
+      ))}
     </div>
   </div>
 );
