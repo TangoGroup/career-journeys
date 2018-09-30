@@ -1,10 +1,33 @@
-const RoleSkillExpectations = (props) => {
-  const { role, skill } = props;
+import EXPECTATIONS from '../constants/expectations';
+import SKILLS from '../constants/skills';
 
-  console.log(role, skill);
+const RoleSkillExpectations = (props) => {
+  const { roleKey } = props;
+
+  const skillExpectations = EXPECTATIONS[roleKey];
+
+  if (!skillExpectations) return null;
 
   return (
-    <div />
+    <div>
+      {Object.keys(skillExpectations).map((skillKey) => {
+        const skill = SKILLS[skillKey];
+        const skillExpectation = skillExpectations[skillKey];
+
+        return (
+          <div key={skillKey}>
+            <h3>{skill.name}</h3>
+            <p>{skillExpectation.description}</p>
+            <p>Example Behaviors:</p>
+            <ul>
+              {skillExpectation.exampleBehaviors.map(exampleBehavior => (
+                <li key={exampleBehavior}>{exampleBehavior}</li>
+              ))}
+            </ul>
+          </div>
+        );
+      })}
+    </div>
   );
 };
 
