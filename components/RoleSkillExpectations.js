@@ -1,10 +1,10 @@
-import EXPECTATIONS from '../constants/expectations';
+import { ROLE_EXPECTATIONS } from '../constants/expectations';
 import SKILLS from '../constants/skills';
 
 const RoleSkillExpectations = (props) => {
   const { roleKey } = props;
 
-  const skillExpectations = EXPECTATIONS[roleKey];
+  const skillExpectations = ROLE_EXPECTATIONS[roleKey];
 
   if (!skillExpectations) return null;
 

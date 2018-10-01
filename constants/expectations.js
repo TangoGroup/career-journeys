@@ -1,4 +1,4 @@
-const EXPECTATIONS = {
+export const ROLE_EXPECTATIONS = {
   ASSOCIATE_ENGINEER: {
     TECHNICAL_EXCELLENCE: {
       description: 'A sentence about what Technical Excellence means for an Associate Engineer.',
@@ -29,4 +29,10 @@ const EXPECTATIONS = {
   },
 };
 
-export default EXPECTATIONS;
+export const SKILL_EXPECTATIONS = {};
+Object.keys(ROLE_EXPECTATIONS).forEach((roleKey) => {
+  Object.keys(ROLE_EXPECTATIONS[roleKey]).forEach((skillKey) => {
+    if (!SKILL_EXPECTATIONS[skillKey]) SKILL_EXPECTATIONS[skillKey] = {};
+    SKILL_EXPECTATIONS[skillKey][roleKey] = ROLE_EXPECTATIONS[roleKey][skillKey];
+  });
+});
