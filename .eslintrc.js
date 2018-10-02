@@ -20,4 +20,7 @@ module.exports = {
     }],
     'no-use-before-define': ['error', { functions: false, classes: false }],
   },
+  "settings": {
+    "import/core-modules": ["styled-jsx", "styled-jsx/css"],
+  },
 };
