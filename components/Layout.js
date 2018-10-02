@@ -5,11 +5,13 @@ const Layout = (props) => {
   const { children } = props;
 
   return (
-    <div>
+    <div className="root">
       <div className="top-nav">
-        <Link href="/">Home</Link>
-        <Link href="/roles">Roles</Link>
-        <Link href="/skills">Skills</Link>
+        <div className="top-nav-links">
+          <Link href="/">Home</Link>
+          <Link href="/roles">Roles</Link>
+          <Link href="/skills">Skills</Link>
+        </div>
       </div>
       {children}
       <style jsx>{styles}</style>
