@@ -4,6 +4,8 @@ import THEME from '../constants/theme';
 const styles = css`
   .top-nav {
     position: fixed;
+    display: flex;
+    align-items: center;
     top: 0;
     width: 100%;
     height: ${THEME.topNavHeight};
@@ -13,9 +15,7 @@ const styles = css`
   }
 
   .top-nav-links {
-    width: 100%;
-    text-align: center;
-    max-width: ${THEME.containerMaxWidth};
+    margin-left: 0.8rem;
   }
 
   .top-nav-links a {
