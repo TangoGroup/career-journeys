@@ -20,6 +20,20 @@ const styles = css`
     max-width: ${THEME.containerMaxWidth};
     padding: 2rem 0;
   }
+
+  .top-nav-links a {
+    color: #999;
+    text-decoration: none;
+    margin-right: 4.8rem;
+  }
+
+  .top-nav-links a:hover {
+    color: #333;
+  }
+
+  .top-nav-links a.active {
+    color: ${THEME.colors.blue};
+  }
 `;
 
 export default styles;
