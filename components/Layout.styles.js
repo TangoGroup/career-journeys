@@ -11,12 +11,14 @@ const styles = css`
     top: 0;
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.06) 0px 6px 20px;
+    background-color: #fff;
   }
 
   .top-nav-links {
     width: 100%;
     text-align: center;
     max-width: ${THEME.containerMaxWidth};
+    padding: 2rem 0;
   }
 `;
 

@@ -8,9 +8,9 @@ const Layout = (props) => {
     <div className="root">
       <div className="top-nav">
         <div className="top-nav-links">
-          <Link href="/">Home</Link>
-          <Link href="/roles">Roles</Link>
-          <Link href="/skills">Skills</Link>
+          <Link href="/"><a>Home</a></Link>
+          <Link href="/roles"><a>Roles</a></Link>
+          <Link href="/skills"><a>Skills</a></Link>
         </div>
       </div>
       {children}
