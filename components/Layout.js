@@ -6,7 +6,7 @@ const Layout = (props) => {
   const { children, router } = props;
 
   return (
-    <div className="root">
+    <div>
       <div className="top-nav">
         <div className="top-nav-links">
           <Link href="/"><a className={router.pathname === '/' ? 'active' : ''}>Home</a></Link>

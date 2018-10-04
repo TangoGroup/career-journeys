@@ -2,10 +2,6 @@ import css from 'styled-jsx/css';
 import THEME from '../constants/theme';
 
 const styles = css`
-  .root {
-
-  }
-
   .top-nav {
     position: fixed;
     top: 0;
@@ -13,6 +9,7 @@ const styles = css`
     height: ${THEME.topNavHeight};
     box-shadow: rgba(0, 0, 0, 0.06) 0px 6px 20px;
     background-color: #fff;
+    z-index: 1000;
   }
 
   .top-nav-links {

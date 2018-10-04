@@ -1,4 +1,5 @@
 const THEME = {
+  anchorTopOffset: '-8rem',
   colors: {
     blue: '#4b9eea',
   },
