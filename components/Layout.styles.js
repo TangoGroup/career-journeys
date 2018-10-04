@@ -10,6 +10,7 @@ const styles = css`
     position: fixed;
     top: 0;
     width: 100%;
+    height: ${THEME.topNavHeight};
     box-shadow: rgba(0, 0, 0, 0.06) 0px 6px 20px;
     background-color: #fff;
   }
@@ -18,7 +19,6 @@ const styles = css`
     width: 100%;
     text-align: center;
     max-width: ${THEME.containerMaxWidth};
-    padding: 2rem 0;
   }
 
   .top-nav-links a {
