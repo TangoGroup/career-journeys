@@ -8,7 +8,7 @@ const RoleNavigation = () => (
 
       return (
         <div key={roleKey}>
-          <a href={`#${roleKey}`}>{title}</a>
+          <a href={`#${roleKey}`} className="role-link">{title}</a>
         </div>
       );
     })}
