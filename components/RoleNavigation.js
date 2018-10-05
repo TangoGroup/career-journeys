@@ -2,7 +2,7 @@ import ROLES from '../constants/roles';
 import styles from './RoleNavigation.styles';
 
 const RoleNavigation = () => (
-  <div className="root">
+  <div>
     {Object.keys(ROLES).map((roleKey) => {
       const { title } = ROLES[roleKey];
 
