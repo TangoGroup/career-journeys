@@ -1,22 +1,24 @@
 import styles from './SkillCard.styles';
+import SKILLS from '../constants/skills';
 
-const SkillCard = () => (
-  <div>
-    <div className="heading">
-      <div className="title">Technical Excellence</div>
+const SkillCard = (props) => {
+  const { skillKey } = props;
+  const skill = SKILLS[skillKey];
+
+  return (
+    <div className="root">
+      <div className="heading">
+        <div className="title">{skill.name}</div>
+      </div>
+      <div className="body">
+        <p>{skill.description}</p>
+        <ul>
+          {skill.details.map(detail => <li key={detail}>{detail}</li>)}
+        </ul>
+      </div>
+      <style jsx>{styles}</style>
     </div>
-    <div className="body">
-      <ul>
-        <li>iOS</li>
-        <li>Android</li>
-        <li>Web</li>
-        <li>Platform</li>
-        <li>Devops</li>
-        <li>Test Automation</li>
-      </ul>
-    </div>
-    <style jsx>{styles}</style>
-  </div>
-);
+  );
+};
 
 export default SkillCard;
