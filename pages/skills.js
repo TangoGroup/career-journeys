@@ -4,7 +4,6 @@ import SkillsOverview from '../components/SkillsOverview';
 
 const Skills = () => (
   <div>
-    <h1>Skills</h1>
     <SkillsOverview />
     <div>
       {Object.keys(SKILLS).map(skillKey => (

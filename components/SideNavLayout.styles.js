@@ -3,7 +3,6 @@ import THEME from '../constants/theme';
 
 export const contentStyles = css`
   padding-left: ${THEME.contentContainerPadding};
-  padding-top: ${THEME.topNavHeight};
 
   @media screen and (max-width: ${THEME.mediaQueryMaxWidth}) {
     padding-left: 0;

@@ -9,7 +9,7 @@ const styles = css`
   }
 
   .root > :global(*) {
-    margin: 0 2.4rem 1.6rem 2.4rem;
+    margin: 2.4rem;
   }
 `;
 

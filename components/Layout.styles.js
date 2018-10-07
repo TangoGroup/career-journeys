@@ -31,6 +31,10 @@ const styles = css`
   .top-nav-links a.active {
     color: ${THEME.colors.blue};
   }
+
+  .main {
+    padding-top: ${THEME.topNavHeight};
+  }
 `;
 
 export default styles;

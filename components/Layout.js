@@ -14,7 +14,9 @@ const Layout = (props) => {
           <Link href="/skills"><a className={router.pathname === '/skills' ? 'active' : ''}>Skills</a></Link>
         </div>
       </div>
-      {children}
+      <div className="main">
+        {children}
+      </div>
       <style jsx>{styles}</style>
     </div>
   );
