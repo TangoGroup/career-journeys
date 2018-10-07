@@ -12,7 +12,8 @@ const styles = css`
     background-color: ${THEME.colors.blue};
     padding: 2.4rem;
     color: #fff;
-    font-size: 1.8rem;
+    font-size: 2rem;
+    text-align: center;
   }
 
   .body {
@@ -24,6 +25,11 @@ const styles = css`
   .body ul {
     margin: 0;
     padding-left: 2.4rem;
+  }
+
+  :global(.icon) {
+    width: 25%;
+    margin: 1.6rem auto 0 auto;
   }
 `;
 
