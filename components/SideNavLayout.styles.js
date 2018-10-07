@@ -4,6 +4,10 @@ import THEME from '../constants/theme';
 export const contentStyles = css`
   padding-left: ${THEME.contentContainerPadding};
   padding-top: ${THEME.topNavHeight};
+
+  @media screen and (max-width: ${THEME.mediaQueryMaxWidth}) {
+    padding-left: 0;
+  }
 `;
 
 export const navStyles = css`
@@ -15,4 +19,8 @@ export const navStyles = css`
   padding: 0.8rem 1.6rem;
   background-color: #efefef;
   font-size: 1.8rem;
+
+  @media screen and (max-width: ${THEME.mediaQueryMaxWidth}) {
+    display: none;
+  }
 `;

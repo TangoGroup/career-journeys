@@ -7,7 +7,7 @@ const SideNavLayout = ({ children }) => (
 );
 
 SideNavLayout.Nav = ({ children }) => (
-  <div>
+  <div className="nav">
     {children}
     <style jsx>{navStyles}</style>
   </div>

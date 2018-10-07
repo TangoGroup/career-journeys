@@ -9,6 +9,7 @@ const THEME = {
   containerMaxWidth: '1024px',
   contentContainerPadding: '40rem',
   leftNavWidth: '30rem',
+  mediaQueryMaxWidth: '950px',
   topNavHeight: '6rem',
 };
 
