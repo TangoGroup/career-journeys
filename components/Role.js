@@ -11,7 +11,6 @@ const Role = (props) => {
       <div id={roleKey} className="hidden-anchor" />
       <h2>{role.title}</h2>
       <p>{role.description}</p>
-      <h3>Skill Expectations</h3>
       {Object.keys(SKILLS).map(skillKey => (
         <RoleSkillExpectations roleKey={roleKey} skillKey={skillKey} />
       ))}
