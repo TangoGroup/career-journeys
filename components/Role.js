@@ -1,5 +1,6 @@
 import styles from './Role.styles';
 import ROLES from '../constants/roles';
+import SKILLS from '../constants/skills';
 import RoleSkillExpectations from './RoleSkillExpectations';
 
 const Role = (props) => {
@@ -11,7 +12,9 @@ const Role = (props) => {
       <h2>{role.title}</h2>
       <p>{role.description}</p>
       <h3>Skill Expectations</h3>
-      <RoleSkillExpectations roleKey={roleKey} />
+      {Object.keys(SKILLS).map(skillKey => (
+        <RoleSkillExpectations roleKey={roleKey} skillKey={skillKey} />
+      ))}
       <style jsx>{styles}</style>
     </div>
   );

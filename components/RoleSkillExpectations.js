@@ -1,32 +1,32 @@
+import styles from './RoleSkillExpectations.styles';
 import { ROLE_EXPECTATIONS } from '../constants/expectations';
 import SKILLS from '../constants/skills';
+import SkillIcon from './SkillIcon';
 
 const RoleSkillExpectations = (props) => {
-  const { roleKey } = props;
+  const { roleKey, skillKey } = props;
 
-  const skillExpectations = ROLE_EXPECTATIONS[roleKey];
+  const expectations = ROLE_EXPECTATIONS[roleKey][skillKey];
+  if (!expectations) return null;
 
-  if (!skillExpectations) return null;
+  const skill = SKILLS[skillKey];
 
   return (
-    <div>
-      {Object.keys(skillExpectations).map((skillKey) => {
-        const skill = SKILLS[skillKey];
-        const skillExpectation = skillExpectations[skillKey];
-
-        return (
-          <div key={skillKey}>
-            <h3>{skill.name}</h3>
-            <p>{skillExpectation.description}</p>
-            <p>Example Behaviors:</p>
-            <ul>
-              {skillExpectation.exampleBehaviors.map(exampleBehavior => (
-                <li key={exampleBehavior}>{exampleBehavior}</li>
-              ))}
-            </ul>
-          </div>
-        );
-      })}
+    <div className="root">
+      <div className="heading">
+        <div className="name">{skill.name}</div>
+        <SkillIcon skillKey={skillKey} className="icon" />
+      </div>
+      <div className="body">
+        <p>{expectations.description}</p>
+        <p>Example Behaviors:</p>
+        <ul>
+          {expectations.exampleBehaviors.map(exampleBehavior => (
+            <li key={exampleBehavior}>{exampleBehavior}</li>
+          ))}
+        </ul>
+      </div>
+      <style jsx>{styles}</style>
     </div>
   );
 };

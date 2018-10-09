@@ -3,9 +3,11 @@ import THEME from '../constants/theme';
 
 export const contentStyles = css`
   padding-left: ${THEME.contentContainerPadding};
+  padding-right: 2.4rem;
 
   @media screen and (max-width: ${THEME.mediaQueryMaxWidth}) {
     padding-left: 0;
+    padding-right: 0;
   }
 `;
 
