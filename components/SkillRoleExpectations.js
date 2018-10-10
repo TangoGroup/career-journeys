@@ -1,31 +1,30 @@
-import { SKILL_EXPECTATIONS } from '../constants/expectations';
+import styles from './SkillRoleExpectations.styles';
+import { ROLE_EXPECTATIONS } from '../constants/expectations';
 import ROLES from '../constants/roles';
 
 const SkillRoleExpectations = (props) => {
-  const { skillKey } = props;
+  const { roleKey, skillKey } = props;
 
-  const roleExpectations = SKILL_EXPECTATIONS[skillKey];
-  if (!roleExpectations) return null;
+  const expectations = ROLE_EXPECTATIONS[roleKey][skillKey];
+  if (!expectations) return null;
+
+  const role = ROLES[roleKey];
 
   return (
-    <div>
-      {Object.keys(roleExpectations).map((roleKey) => {
-        const role = ROLES[roleKey];
-        const skillExpectation = roleExpectations[roleKey];
-
-        return (
-          <div key={roleKey}>
-            <h3>{role.title}</h3>
-            <p>{skillExpectation.description}</p>
-            <p>Example Behaviors:</p>
-            <ul>
-              {skillExpectation.exampleBehaviors.map(exampleBehavior => (
-                <li key={exampleBehavior}>{exampleBehavior}</li>
-              ))}
-            </ul>
-          </div>
-        );
-      })}
+    <div className="root">
+      <div className="heading">
+        <div className="title">{role.title}</div>
+      </div>
+      <div className="body">
+        <p>{expectations.description}</p>
+        <p>Example Behaviors:</p>
+        <ul>
+          {expectations.exampleBehaviors.map(exampleBehavior => (
+            <li key={exampleBehavior}>{exampleBehavior}</li>
+          ))}
+        </ul>
+      </div>
+      <style jsx>{styles}</style>
     </div>
   );
 };

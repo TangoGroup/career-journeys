@@ -1,3 +1,4 @@
+import ROLES from '../constants/roles';
 import SKILLS from '../constants/skills';
 import SkillRoleExpectations from './SkillRoleExpectations';
 
@@ -8,7 +9,9 @@ const Role = (props) => {
     <div key={skillKey}>
       <h2>{skill.name}</h2>
       <p>{skill.description}</p>
-      <SkillRoleExpectations skillKey={skillKey} />
+      {Object.keys(ROLES).map(roleKey => (
+        <SkillRoleExpectations roleKey={roleKey} skillKey={skillKey} />
+      ))}
     </div>
   );
 };
