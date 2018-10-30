@@ -12,7 +12,7 @@ const Role = (props) => {
       <h2>{role.title}</h2>
       <p>{role.description}</p>
       {Object.keys(SKILLS).map(skillKey => (
-        <RoleSkillExpectations roleKey={roleKey} skillKey={skillKey} />
+        <RoleSkillExpectations key={skillKey} roleKey={roleKey} skillKey={skillKey} />
       ))}
       <style jsx>{styles}</style>
     </div>
