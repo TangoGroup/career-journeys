@@ -27,6 +27,132 @@ export const ROLE_EXPECTATIONS = {
       ],
     },
   },
+  SENIOR_ENGINEER: {
+    TECHNICAL_EXCELLENCE: {
+      description: 'A sentence about what Technical Excellence means for a Senior Engineer.',
+      behaviors: [
+        'TBD',
+      ],
+    },
+    DELIVERY: {
+      description: 'A sentence about what Delivery means for a Senior Engineer.',
+      behaviors: [
+        'TBD',
+      ],
+    },
+  },
+  STAFF_ENGINEER: {
+    TECHNICAL_EXCELLENCE: {
+      description: 'A sentence about what Technical Excellence means for a Staff Engineer.',
+      behaviors: [
+        'TBD',
+      ],
+    },
+    DELIVERY: {
+      description: 'A sentence about what Delivery means for a Staff Engineer.',
+      behaviors: [
+        'TBD',
+      ],
+    },
+  },
+  TEAM_LEAD: {
+    TECHNICAL_EXCELLENCE: {
+      description: 'A sentence about what Technical Excellence means for a Team Lead.',
+      behaviors: [
+        'TBD',
+      ],
+    },
+    DELIVERY: {
+      description: 'A sentence about what Delivery means for a Team Lead.',
+      behaviors: [
+        'TBD',
+      ],
+    },
+  },
+  SENIOR_STAFF_ENGINEER: {
+    TECHNICAL_EXCELLENCE: {
+      description: 'A sentence about what Technical Excellence means for a Senior Staff Engineer.',
+      behaviors: [
+        'TBD',
+      ],
+    },
+    DELIVERY: {
+      description: 'A sentence about what Delivery means for a Senior Staff Engineer.',
+      behaviors: [
+        'TBD',
+      ],
+    },
+  },
+  ARCHITECT: {
+    TECHNICAL_EXCELLENCE: {
+      description: 'A sentence about what Technical Excellence means for an Architect.',
+      behaviors: [
+        'TBD',
+      ],
+    },
+    DELIVERY: {
+      description: 'A sentence about what Delivery means for an Architect.',
+      behaviors: [
+        'TBD',
+      ],
+    },
+  },
+  ENGINEERING_MANAGER: {
+    TECHNICAL_EXCELLENCE: {
+      description: 'A sentence about what Technical Excellence means for an Engineering Manager.',
+      behaviors: [
+        'TBD',
+      ],
+    },
+    DELIVERY: {
+      description: 'A sentence about what Delivery means for an Engineering Manager.',
+      behaviors: [
+        'TBD',
+      ],
+    },
+  },
+  PRINCIPAL_ENGINEER: {
+    TECHNICAL_EXCELLENCE: {
+      description: 'A sentence about what Technical Excellence means for a Principal Engineer.',
+      behaviors: [
+        'TBD',
+      ],
+    },
+    DELIVERY: {
+      description: 'A sentence about what Delivery means for a Principal Engineer.',
+      behaviors: [
+        'TBD',
+      ],
+    },
+  },
+  SENIOR_ARCHITECT: {
+    TECHNICAL_EXCELLENCE: {
+      description: 'A sentence about what Technical Excellence means for a Senior Architect.',
+      behaviors: [
+        'TBD',
+      ],
+    },
+    DELIVERY: {
+      description: 'A sentence about what Delivery means for a Senior Architect.',
+      behaviors: [
+        'TBD',
+      ],
+    },
+  },
+  ENGINEERING_DIRECTOR: {
+    TECHNICAL_EXCELLENCE: {
+      description: 'A sentence about what Technical Excellence means for an Engineering Director.',
+      behaviors: [
+        'TBD',
+      ],
+    },
+    DELIVERY: {
+      description: 'A sentence about what Delivery means for an Engineering Director.',
+      behaviors: [
+        'TBD',
+      ],
+    },
+  },
 };
 
 export const SKILL_EXPECTATIONS = {};
