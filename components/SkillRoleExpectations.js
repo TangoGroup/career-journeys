@@ -17,10 +17,10 @@ const SkillRoleExpectations = (props) => {
       </div>
       <div className="body">
         <p>{expectations.description}</p>
-        <p>Example Behaviors:</p>
+        <p>Behaviors:</p>
         <ul>
-          {expectations.exampleBehaviors.map(exampleBehavior => (
-            <li key={exampleBehavior}>{exampleBehavior}</li>
+          {expectations.behaviors.map(behavior => (
+            <li key={behavior}>{behavior}</li>
           ))}
         </ul>
       </div>
