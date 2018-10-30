@@ -2,14 +2,14 @@
 import styles from './SkillIcon.styles';
 import alignmentSvg from '../assets/alignment.svg.js';
 import collaborationSvg from '../assets/collaboration.svg.js';
-import cultureSvg from '../assets/culture.svg.js';
+import leadershipSvg from '../assets/leadership.svg.js';
 import deliverySvg from '../assets/delivery.svg.js';
 import technicalExcellenceSvg from '../assets/technical-excellence.svg.js';
 
 const iconMap = {
   TECHNICAL_EXCELLENCE: technicalExcellenceSvg,
   ALIGNMENT: alignmentSvg,
-  CULTURE: cultureSvg,
+  LEADERSHIP: leadershipSvg,
   DELIVERY: deliverySvg,
   COLLABORATION: collaborationSvg,
 };

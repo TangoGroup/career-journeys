@@ -19,9 +19,9 @@ const SKILLS = {
     description: 'A brief paragraph about Collaboration',
     details: ['detail 1', 'detail 2', 'detail 3'],
   },
-  CULTURE: {
-    name: 'Culture',
-    description: 'A brief paragraph about Culture',
+  LEADERSHIP: {
+    name: 'Leadership',
+    description: 'A brief paragraph about Leadership',
     details: ['detail 1', 'detail 2', 'detail 3'],
   },
 };
