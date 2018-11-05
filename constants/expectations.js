@@ -13,6 +13,7 @@ export const ROLE_EXPECTATIONS = {
       description: 'A sentence about what Delivery means for an Associate Engineer.',
       behaviors: [
         'Can complete well-defined and subdivided tasks.',
+        'Estimates small tasks accurately.',
       ],
     },
   },
@@ -30,6 +31,9 @@ export const ROLE_EXPECTATIONS = {
       description: 'A sentence about what Delivery means for an Engineer.',
       behaviors: [
         'Makes steady, well-paced progress without the need for constant significant feedback from more senior engineers.',
+        'Performs research and considers alternative approaches.',
+        'Defines and achieves interim milestones.',
+        'Engages fully in grooming sessions and technical inceptions.',
       ],
     },
   },
@@ -45,7 +49,8 @@ export const ROLE_EXPECTATIONS = {
     DELIVERY: {
       description: 'A sentence about what Delivery means for a Senior Engineer.',
       behaviors: [
-        'TBD',
+        'Has end-to-end responsibility on projects of increasing complexity and contributes to code shared across projects.',
+        'Works with product and design teams to tease out requirements / details.',
       ],
     },
   },
@@ -62,7 +67,8 @@ export const ROLE_EXPECTATIONS = {
     DELIVERY: {
       description: 'A sentence about what Delivery means for a Staff Engineer.',
       behaviors: [
-        'TBD',
+        'Demonstrates ability to take a nebulous project, talk to the right people, define it, split it up into tasks, and ultimately get it done quickly and efficiently.',
+        'Delegates tasks to others appropriately.',
       ],
     },
   },
@@ -79,7 +85,10 @@ export const ROLE_EXPECTATIONS = {
     DELIVERY: {
       description: 'A sentence about what Delivery means for a Senior Staff Engineer.',
       behaviors: [
-        'TBD',
+        'Takes a business unit’s strategic initiative, defines projects and works with teams to assign ownership and priority to those projects.',
+        'Consistently identifies and delivers solutions that improve the efficiency and productivity of team members working in their area of ownership.',
+        'Finds ways to deliver requested scope faster.',
+        'Finds ways to deliver requested scope at higher quality.',
       ],
     },
   },
@@ -96,7 +105,12 @@ export const ROLE_EXPECTATIONS = {
     DELIVERY: {
       description: 'A sentence about what Delivery means for an Engineering Manager.',
       behaviors: [
-        'TBD',
+        'Works with product and design teams in early phases to help sequence missions, identify lifts, and staffing constraints.',
+        'Takes on responsibility for high priority issues and finds quick resolution.',
+        'Ensures non-project tech work (bugs, tech debt, refactors, smaller collaborative efforts) moves along appropriately.',
+        'Participates in day-to-day project conversations and provides a strong technical perspective and consistent voice between projects.',
+        'Coaches engineers in story writing, teasing requirements and estimating.',
+        'Empowers team with technical tools and metrics around their work.',
       ],
     },
   },
@@ -112,7 +126,8 @@ export const ROLE_EXPECTATIONS = {
     DELIVERY: {
       description: 'A sentence about what Delivery means for a Principal Engineer.',
       behaviors: [
-        'TBD',
+        'Considers external constraints and business objectives when planning.',
+        'Coordinates effective cross-functional collaboration across teams.',
       ],
     },
   },
@@ -129,7 +144,10 @@ export const ROLE_EXPECTATIONS = {
     DELIVERY: {
       description: 'A sentence about what Delivery means for an Engineering Director.',
       behaviors: [
-        'TBD',
+        'Strategizes with other Directors and VP around resource allocation and hiring, ensuring ongoing delivery is supported.',
+        'Participates in project conversations, coordinates details of multi-team initiatives, keeping teams on track with key initiatives.',
+        'Works with Engineering Manager to strategize and prioritize around non-project tech work (bugs, tech debt, refactors, smaller collaborative efforts).',
+        'Holds entire team including Engineering Manager, Staff, Principal and Architects to process expectations and agreements.',
       ],
     },
   },
