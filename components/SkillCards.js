@@ -1,8 +1,8 @@
-import styles from './SkillsOverview.styles';
+import styles from './SkillCards.styles';
 import SKILLS from '../constants/skills';
 import SkillCard from './SkillCard';
 
-const SkillsOverview = () => (
+const SkillCards = () => (
   <div className="root">
     {Object.keys(SKILLS).map(skillKey => (
       <SkillCard key={skillKey} skillKey={skillKey} />
@@ -11,4 +11,4 @@ const SkillsOverview = () => (
   </div>
 );
 
-export default SkillsOverview;
+export default SkillCards;

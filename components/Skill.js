@@ -7,7 +7,7 @@ const Role = (props) => {
   const skill = SKILLS[skillKey];
   return (
     <div key={skillKey}>
-      <h2>{skill.name}</h2>
+      <h3>{skill.name}</h3>
       <p>{skill.description}</p>
       {Object.keys(ROLES).map(roleKey => (
         <SkillRoleExpectations key={roleKey} roleKey={roleKey} skillKey={skillKey} />

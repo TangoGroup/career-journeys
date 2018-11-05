@@ -14,9 +14,6 @@ const SkillCard = (props) => {
       </div>
       <div className="body">
         <p>{skill.description}</p>
-        <ul>
-          {skill.details.map(detail => <li key={detail}>{detail}</li>)}
-        </ul>
       </div>
       <style jsx>{styles}</style>
     </div>

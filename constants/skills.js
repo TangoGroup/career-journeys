@@ -1,28 +1,23 @@
 const SKILLS = {
   TECHNICAL_EXCELLENCE: {
     name: 'Technical Excellence',
-    description: 'A brief paragraph about Technical Excellence',
-    details: ['detail 1', 'detail 2', 'detail 3'],
+    description: 'Develops expertise in technologies such as services, web applications, native applications, development operations systems and test automation.',
   },
   DELIVERY: {
     name: 'Delivery',
-    description: 'A brief paragraph about Delivery',
-    details: ['detail 1', 'detail 2', 'detail 3'],
+    description: 'Executes against objectives in a timely manner within budget and with high quality standards.',
   },
   ALIGNMENT: {
     name: 'Alignment',
-    description: 'A brief paragraph about Alignment',
-    details: ['detail 1', 'detail 2', 'detail 3'],
+    description: 'Contributes to Gloo’s organizational goals with a deep understanding of purpose, mission and business strategy.',
   },
   COLLABORATION: {
     name: 'Collaboration',
-    description: 'A brief paragraph about Collaboration',
-    details: ['detail 1', 'detail 2', 'detail 3'],
+    description: 'Cooperates well with others, delivering value and solving problems with a team first approach.',
   },
   LEADERSHIP: {
     name: 'Leadership',
-    description: 'A brief paragraph about Leadership',
-    details: ['detail 1', 'detail 2', 'detail 3'],
+    description: 'Supports, guides or directs the team to strive for and achieve their highest potential.',
   },
 };
 
