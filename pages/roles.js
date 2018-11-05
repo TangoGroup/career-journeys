@@ -1,4 +1,5 @@
-import RolesOverview from '../components/RolesOverview';
+import RolesOverview from '../md/RolesOverview.mdx';
+import RolesDiagram from '../components/RolesDiagram';
 import RoleNavigation from '../components/RoleNavigation';
 import RoleList from '../components/RoleList';
 import SideNavLayout from '../components/SideNavLayout';
@@ -9,8 +10,8 @@ const Roles = () => (
       <RoleNavigation />
     </SideNavLayout.Nav>
     <SideNavLayout.Content>
-      <h1>Roles</h1>
       <RolesOverview />
+      <RolesDiagram />
       <RoleList />
     </SideNavLayout.Content>
   </SideNavLayout>

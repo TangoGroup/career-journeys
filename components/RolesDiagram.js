@@ -1,7 +1,7 @@
-import styles from './RolesOverview.styles';
+import styles from './RolesDiagram.styles';
 import ROLES from '../constants/roles';
 
-const RolesOverview = () => (
+const RolesDiagram = () => (
   <div className="root">
     <div className="role">{ROLES.ASSOCIATE_ENGINEER.title}</div>
     <div className="role">{ROLES.ENGINEER.title}</div>
@@ -19,4 +19,4 @@ const RolesOverview = () => (
   </div>
 );
 
-export default RolesOverview;
+export default RolesDiagram;
