@@ -1,5 +1,5 @@
 import styles from './RolesDiagram.styles';
-import ROLES from '../constants/roles';
+import ROLES from '../data/roles';
 
 const RolesDiagram = () => (
   <div className="root">

@@ -1,5 +1,5 @@
 import styles from './SkillCard.styles';
-import SKILLS from '../constants/skills';
+import SKILLS from '../data/skills';
 import SkillIcon from './SkillIcon';
 
 const SkillCard = (props) => {

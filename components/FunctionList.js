@@ -1,4 +1,4 @@
-import FUNCTIONS from '../constants/functions';
+import FUNCTIONS from '../data/functions';
 
 const FunctionList = () => (
   <div>

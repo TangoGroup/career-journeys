@@ -1,4 +1,4 @@
-import SKILLS from '../constants/skills';
+import SKILLS from '../data/skills';
 import Skill from './Skill';
 
 const Skills = () => (

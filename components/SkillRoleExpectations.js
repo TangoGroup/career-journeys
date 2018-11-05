@@ -1,6 +1,6 @@
 import styles from './SkillRoleExpectations.styles';
-import { ROLE_EXPECTATIONS } from '../constants/expectations';
-import ROLES from '../constants/roles';
+import { ROLE_EXPECTATIONS } from '../data/expectations';
+import ROLES from '../data/roles';
 
 const SkillRoleExpectations = (props) => {
   const { roleKey, skillKey } = props;
