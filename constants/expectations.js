@@ -30,6 +30,13 @@ export const ROLE_EXPECTATIONS = {
         'Basic understanding of priorities and goals for the team',
       ],
     },
+    LEADERSHIP: {
+      behaviors: [
+        'Committed to self-improvement, incorporating feedback from peers and their manager.',
+        'Participates in team decision-making processes, asks questions and provides feedback.',
+        'Identifies and communicates team issues and opportunities for improvement.',
+      ],
+    },
   },
   ENGINEER: {
     TECHNICAL_EXCELLENCE: {
@@ -66,6 +73,13 @@ export const ROLE_EXPECTATIONS = {
         'Actively engages in understanding Gloo strategy and impact on the team.',
       ],
     },
+    LEADERSHIP: {
+      behaviors: [
+        'Informally mentors individuals in an ad-hoc way, supports new hires and conveys institutional knowledge.',
+        'Influences team decision-making process with domain knowledge.',
+        'Investigates potential causes for team issues and proposes solutions for improvement.',
+      ],
+    },
   },
   SENIOR_ENGINEER: {
     TECHNICAL_EXCELLENCE: {
@@ -94,6 +108,13 @@ export const ROLE_EXPECTATIONS = {
       behaviors: [
         'Actively engages with broader team in discussions regarding Strategy and Principles. Helps teammates understand how their work connects to overall strategy,', 'purpose and design principles.',
         'Demonstrates the ability to translate between basic business requirements and technical requirements.',
+      ],
+    },
+    LEADERSHIP: {
+      behaviors: [
+        'Mentors people proactively as individuals or groups.',
+        'Brings knowledge and experience to decision-making process.',
+        'Occasionally solves team issues and implementing improvement.',
       ],
     },
   },
@@ -127,6 +148,13 @@ export const ROLE_EXPECTATIONS = {
         'Identifies appropriate metrics that tie back to business objectives and measures those when making decisions.',
         'Understands various product offerings and how they work together.',
         'Integrates business needs into project planning.',
+      ],
+    },
+    LEADERSHIP: {
+      behaviors: [
+        'Teaches small groups of engineers.',
+        'Leads team through timely and effective decision making process.',
+        'Frequently takes lead in solving team issues, implements improvements and proactively communicates with stakeholders.',
       ],
     },
   },
@@ -164,6 +192,17 @@ export const ROLE_EXPECTATIONS = {
         'Aligns technology strategy with product strategy in partnership with Directors and VP.',
       ],
     },
+    LEADERSHIP: {
+      behaviors: [
+        'Encourages people to mentor each other and creates ways for them to do so.',
+        'Empowers Staff Engineers and Team Lead to make decisions.',
+        'Committed to continuous improvement through team retros and small improvements.',
+        'Motivates the team and rights the ship in rough times.',
+        'Serves team with hands-on effort.',
+        'Able to communicate tough realities to stakeholders.',
+        'Supports and guides team members with their Career Journey.',
+      ],
+    },
   },
   ENGINEERING_MANAGER: {
     TECHNICAL_EXCELLENCE: {
@@ -197,6 +236,11 @@ export const ROLE_EXPECTATIONS = {
         'TODO: Inherit from Senior Staff Engineer',
       ],
     },
+    LEADERSHIP: {
+      behaviors: [
+        'TODO: Inherits from Senior Staff Engineer',
+      ],
+    },
   },
   PRINCIPAL_ENGINEER: {
     TECHNICAL_EXCELLENCE: {
@@ -225,6 +269,15 @@ export const ROLE_EXPECTATIONS = {
         'Understands, promotes and clarifies the company vision and principles throughout engineering.',
         'Connects the work we’re doing to the principles and goals of the company.',
         'Demonstrates a deep understanding of entire product feature set.',
+      ],
+    },
+    LEADERSHIP: {
+      behaviors: [
+        'Instills and promotes a culture of learning and development within engineering.',
+        'Promotes a culture that encourages courageous decision making.',
+        'Defines processes with stakeholders that empower the team, have alignment with company goals, improve team’s progress, and demonstrate success.',
+        'Promotes a positive, fun working environment both inside and outside of Gloo.',
+        'Instills trust and confidence with team through transparency and action.',
       ],
     },
   },
@@ -256,6 +309,11 @@ export const ROLE_EXPECTATIONS = {
       ],
     },
     ALIGNMENT: {
+      behaviors: [
+        'TODO: Inherit from Principal Engineer',
+      ],
+    },
+    LEADERSHIP: {
       behaviors: [
         'TODO: Inherit from Principal Engineer',
       ],
