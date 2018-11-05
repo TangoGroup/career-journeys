@@ -1,7 +1,6 @@
 export const ROLE_EXPECTATIONS = {
   ASSOCIATE_ENGINEER: {
     TECHNICAL_EXCELLENCE: {
-      description: 'A sentence about what Technical Excellence means for an Associate Engineer.',
       behaviors: [
         'Demonstrates broad knowledge of programming concepts.',
         'Works effectively within established architectures, following current best practices.',
@@ -10,7 +9,6 @@ export const ROLE_EXPECTATIONS = {
       ],
     },
     DELIVERY: {
-      description: 'A sentence about what Delivery means for an Associate Engineer.',
       behaviors: [
         'Can complete well-defined and subdivided tasks.',
         'Estimates small tasks accurately.',
@@ -40,7 +38,6 @@ export const ROLE_EXPECTATIONS = {
   },
   ENGINEER: {
     TECHNICAL_EXCELLENCE: {
-      description: 'A sentence about what Technical Excellence means for an Engineer.',
       behaviors: [
         'Owns a small-to-medium feature from technical design through completion.',
         'Can solve medium-sized problems, can understand and contribute to solving large-sized problems.',
@@ -49,7 +46,6 @@ export const ROLE_EXPECTATIONS = {
       ],
     },
     DELIVERY: {
-      description: 'A sentence about what Delivery means for an Engineer.',
       behaviors: [
         'Makes steady, well-paced progress without the need for constant significant feedback from more senior engineers.',
         'Performs research and considers alternative approaches.',
@@ -83,7 +79,6 @@ export const ROLE_EXPECTATIONS = {
   },
   SENIOR_ENGINEER: {
     TECHNICAL_EXCELLENCE: {
-      description: 'A sentence about what Technical Excellence means for a Senior Engineer.',
       behaviors: [
         'Owns a service or large technology component.',
         'Can solve large-sized problems with well designed and architected solutions.',
@@ -91,7 +86,6 @@ export const ROLE_EXPECTATIONS = {
       ],
     },
     DELIVERY: {
-      description: 'A sentence about what Delivery means for a Senior Engineer.',
       behaviors: [
         'Has end-to-end responsibility on projects of increasing complexity and contributes to code shared across projects.',
         'Works with product and design teams to tease out requirements / details.',
@@ -120,7 +114,6 @@ export const ROLE_EXPECTATIONS = {
   },
   STAFF_ENGINEER: {
     TECHNICAL_EXCELLENCE: {
-      description: 'A sentence about what Technical Excellence means for a Staff Engineer.',
       behaviors: [
         'Owns large-scale and impactful service or collection of services.',
         'Mentors peers to avoid antipatterns.',
@@ -129,7 +122,6 @@ export const ROLE_EXPECTATIONS = {
       ],
     },
     DELIVERY: {
-      description: 'A sentence about what Delivery means for a Staff Engineer.',
       behaviors: [
         'Demonstrates ability to take a nebulous project, talk to the right people, define it, split it up into tasks, and ultimately get it done quickly and efficiently.',
         'Delegates tasks to others appropriately.',
@@ -160,7 +152,6 @@ export const ROLE_EXPECTATIONS = {
   },
   SENIOR_STAFF_ENGINEER: {
     TECHNICAL_EXCELLENCE: {
-      description: 'A sentence about what Technical Excellence means for a Senior Staff Engineer.',
       behaviors: [
         'Designs and builds complex, flexible architectures that demonstrates best practices and prepares for future needs.',
         'Demonstrates organization-level expertise in a particular area or go-to person for solving problems in their domain expertise for all of engineering.',
@@ -169,7 +160,6 @@ export const ROLE_EXPECTATIONS = {
       ],
     },
     DELIVERY: {
-      description: 'A sentence about what Delivery means for a Senior Staff Engineer.',
       behaviors: [
         'Takes a business unit’s strategic initiative, defines projects and works with teams to assign ownership and priority to those projects.',
         'Consistently identifies and delivers solutions that improve the efficiency and productivity of team members working in their area of ownership.',
@@ -206,7 +196,6 @@ export const ROLE_EXPECTATIONS = {
   },
   ENGINEERING_MANAGER: {
     TECHNICAL_EXCELLENCE: {
-      description: 'A sentence about what Technical Excellence means for an Engineering Manager.',
       behaviors: [
         'Demonstrates technical excellence level of Staff Engineer.',
         'Regularly engaged in providing technical feedback to teammates.',
@@ -215,7 +204,6 @@ export const ROLE_EXPECTATIONS = {
       ],
     },
     DELIVERY: {
-      description: 'A sentence about what Delivery means for an Engineering Manager.',
       behaviors: [
         'Works with product and design teams in early phases to help sequence missions, identify lifts, and staffing constraints.',
         'Takes on responsibility for high priority issues and finds quick resolution.',
@@ -232,19 +220,14 @@ export const ROLE_EXPECTATIONS = {
       ],
     },
     ALIGNMENT: {
-      behaviors: [
-        'TODO: Inherit from Senior Staff Engineer',
-      ],
+      inheritsBehaviorsFrom: 'SENIOR_STAFF_ENGINEER',
     },
     LEADERSHIP: {
-      behaviors: [
-        'TODO: Inherits from Senior Staff Engineer',
-      ],
+      inheritsBehaviorsFrom: 'SENIOR_STAFF_ENGINEER',
     },
   },
   PRINCIPAL_ENGINEER: {
     TECHNICAL_EXCELLENCE: {
-      description: 'A sentence about what Technical Excellence means for a Principal Engineer.',
       behaviors: [
         'Drives or facilitates major technology improvements for the company.',
         'Demonstrates industry leading expertise in their primary technology stack.',
@@ -252,7 +235,6 @@ export const ROLE_EXPECTATIONS = {
       ],
     },
     DELIVERY: {
-      description: 'A sentence about what Delivery means for a Principal Engineer.',
       behaviors: [
         'Considers external constraints and business objectives when planning.',
         'Coordinates effective cross-functional collaboration across teams.',
@@ -283,7 +265,6 @@ export const ROLE_EXPECTATIONS = {
   },
   ENGINEERING_DIRECTOR: {
     TECHNICAL_EXCELLENCE: {
-      description: 'A sentence about what Technical Excellence means for an Engineering Director.',
       behaviors: [
         'Helps solve larger technical and architectural problems with the team when they need support.',
         'Demonstrates solid understanding of entire system, understands the architecture, is able to contribute across multiple technologies, and presents other technologies to leverage.',
@@ -292,7 +273,6 @@ export const ROLE_EXPECTATIONS = {
       ],
     },
     DELIVERY: {
-      description: 'A sentence about what Delivery means for an Engineering Director.',
       behaviors: [
         'Strategizes with other Directors and VP around resource allocation and hiring, ensuring ongoing delivery is supported.',
         'Participates in project conversations, coordinates details of multi-team initiatives, keeping teams on track with key initiatives.',
@@ -309,14 +289,10 @@ export const ROLE_EXPECTATIONS = {
       ],
     },
     ALIGNMENT: {
-      behaviors: [
-        'TODO: Inherit from Principal Engineer',
-      ],
+      inheritsBehaviorsFrom: 'PRINCIPAL_ENGINEER',
     },
     LEADERSHIP: {
-      behaviors: [
-        'TODO: Inherit from Principal Engineer',
-      ],
+      inheritsBehaviorsFrom: 'PRINCIPAL_ENGINEER',
     },
   },
 };

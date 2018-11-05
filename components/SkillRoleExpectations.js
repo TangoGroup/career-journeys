@@ -16,8 +16,6 @@ const SkillRoleExpectations = (props) => {
         <div className="title">{role.title}</div>
       </div>
       <div className="body">
-        <p>{expectations.description}</p>
-        <p>Behaviors:</p>
         <ul>
           {expectations.behaviors.map(behavior => (
             <li key={behavior}>{behavior}</li>
