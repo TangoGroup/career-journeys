@@ -16,6 +16,14 @@ export const ROLE_EXPECTATIONS = {
         'Estimates small tasks accurately.',
       ],
     },
+    COLLABORATION: {
+      behaviors: [
+        'Communicates with peers effectively and in a timely manner.',
+        'Effectively incorporates feedback from team members.',
+        'Interacts with team with a positive and constructive attitude.',
+        'Effectively proposes dissenting points of view during team discussions.',
+      ],
+    },
   },
   ENGINEER: {
     TECHNICAL_EXCELLENCE: {
@@ -36,6 +44,15 @@ export const ROLE_EXPECTATIONS = {
         'Engages fully in grooming sessions and technical inceptions.',
       ],
     },
+    COLLABORATION: {
+      behaviors: [
+        'Communicates with the wider team appropriately, focusing on timeliness and good quality conversations.',
+        'Puts team priorities over their own.',
+        'Works closely with QA to ensure work meets the acceptance criteria.',
+        'Effectively listens to opposing points of view during team discussions and allows alternate ideas to influence perspective.',
+
+      ],
+    },
   },
   SENIOR_ENGINEER: {
     TECHNICAL_EXCELLENCE: {
@@ -51,6 +68,13 @@ export const ROLE_EXPECTATIONS = {
       behaviors: [
         'Has end-to-end responsibility on projects of increasing complexity and contributes to code shared across projects.',
         'Works with product and design teams to tease out requirements / details.',
+      ],
+    },
+    COLLABORATION: {
+      behaviors: [
+        'Proactively shares information, actively solicits feedback, and facilitates communication for multiple stakeholders.',
+        'Can explain complex problems and solutions to people inside and outside their domain of expertise.',
+        'Seeks to resolve disagreements with open and honest communication. Learns to disagree and commit. ',
       ],
     },
   },
@@ -71,6 +95,13 @@ export const ROLE_EXPECTATIONS = {
         'Delegates tasks to others appropriately.',
       ],
     },
+    COLLABORATION: {
+      behaviors: [
+        'Communicates complex ideas skillfully and with nuance, and establishes alignment within the wider organization.',
+        'Actively helps solve cross-team issues by assisting other teams.',
+        'Leads the team through complex decisions and effectively resolves disagreements between teammates.',
+      ],
+    },
   },
   SENIOR_STAFF_ENGINEER: {
     TECHNICAL_EXCELLENCE: {
@@ -89,6 +120,13 @@ export const ROLE_EXPECTATIONS = {
         'Consistently identifies and delivers solutions that improve the efficiency and productivity of team members working in their area of ownership.',
         'Finds ways to deliver requested scope faster.',
         'Finds ways to deliver requested scope at higher quality.',
+      ],
+    },
+    COLLABORATION: {
+      behaviors: [
+        'Collaborates across functions including areas outside of engineering.',
+        'Designs and refines processes that encourage a culture of collaboration.',
+        'Seeks to create solid working relationships with all teammates through open and honest dialog. Encourages others to disagree and commit in order to avoid unresolved conflict.',
       ],
     },
   },
@@ -113,6 +151,12 @@ export const ROLE_EXPECTATIONS = {
         'Empowers team with technical tools and metrics around their work.',
       ],
     },
+    COLLABORATION: {
+      behaviors: [
+        'Develops and improves collaboration between teams within engineering.',
+        'Engages individuals from other teams and departments around ongoing issues, concerns, technical issues and solutions.',
+      ],
+    },
   },
   PRINCIPAL_ENGINEER: {
     TECHNICAL_EXCELLENCE: {
@@ -128,6 +172,12 @@ export const ROLE_EXPECTATIONS = {
       behaviors: [
         'Considers external constraints and business objectives when planning.',
         'Coordinates effective cross-functional collaboration across teams.',
+      ],
+    },
+    COLLABORATION: {
+      behaviors: [
+        'Actively works with company leadership to drive solutions that solve broader issues.',
+        'Effectively seeks feedback on major technical initiatives from all company stakeholders, foresees potential downstream effects and communicates and crafts roadmaps with full transparency.',
       ],
     },
   },
@@ -148,6 +198,14 @@ export const ROLE_EXPECTATIONS = {
         'Participates in project conversations, coordinates details of multi-team initiatives, keeping teams on track with key initiatives.',
         'Works with Engineering Manager to strategize and prioritize around non-project tech work (bugs, tech debt, refactors, smaller collaborative efforts).',
         'Holds entire team including Engineering Manager, Staff, Principal and Architects to process expectations and agreements.',
+      ],
+    },
+    COLLABORATION: {
+      behaviors: [
+        'Develops and improves collaboration between engineering and other departments.',
+        'Coordinates (with other volunteers) learning and collaboration opportunities (lunch ‘n’ learns, community events, user groups, conference attendance).',
+        'Identifies and addresses needs for more collaboration (off-sites discussions, multi-team sync meetings, etc.).',
+        'Communicates engineering initiatives, progress, tradeoffs, etc. to a large audience of technical / non technical people.',
       ],
     },
   },
