@@ -1,7 +1,7 @@
-import Home from '../components/Home';
+import Introduction from '../md/Introduction.mdx';
 
 const Index = () => (
-  <Home />
+  <Introduction />
 );
 
 export default Index;
