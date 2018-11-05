@@ -10,3 +10,22 @@ npm run dev
 
 # Visit http://localhost:3000
 ```
+
+# Contributions
+As engineering at Gloo evolves, so too must this framework. We want to make it as easy as possible to request changes from anybody but still
+retain an approval process, auditing, history, etc. just like you would want in any code base. As such, we use git to manage changes in the framework.
+
+There are a few ways to contribute:
+
+## Code
+For people who want to edit in their favorite local editor.
+1. Clone the repo (just like you would any other repo).
+2. Create a branch (e.g. `git checkout -b feature/reword-assoc-delivery`).
+3. Push your branch and create a pull request in github.
+
+## Github
+For people who want to make simple changes straight in github's web app.
+1. Open the file you want to change (most likely in the [data](./data) directory).
+2. Click the **pencil** icon in the menu for the document to edit.
+3. Complete your edits.
+4. Add a commit message, select the **Create a new branch...** option
