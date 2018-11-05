@@ -24,6 +24,12 @@ export const ROLE_EXPECTATIONS = {
         'Effectively proposes dissenting points of view during team discussions.',
       ],
     },
+    ALIGNMENT: {
+      behaviors: [
+        'Understands and can Explain Gloo’s Core Purpose / Mission  and Design Principles',
+        'Basic understanding of priorities and goals for the team',
+      ],
+    },
   },
   ENGINEER: {
     TECHNICAL_EXCELLENCE: {
@@ -53,6 +59,13 @@ export const ROLE_EXPECTATIONS = {
 
       ],
     },
+    ALIGNMENT: {
+      behaviors: [
+        'Can draw connection between some of Gloo’s Products and Strategy and Gloo’s Purpose / Mission and Design Principles.',
+        'Shows interest in learning more about others parts of the company.',
+        'Actively engages in understanding Gloo strategy and impact on the team.',
+      ],
+    },
   },
   SENIOR_ENGINEER: {
     TECHNICAL_EXCELLENCE: {
@@ -75,6 +88,12 @@ export const ROLE_EXPECTATIONS = {
         'Proactively shares information, actively solicits feedback, and facilitates communication for multiple stakeholders.',
         'Can explain complex problems and solutions to people inside and outside their domain of expertise.',
         'Seeks to resolve disagreements with open and honest communication. Learns to disagree and commit. ',
+      ],
+    },
+    ALIGNMENT: {
+      behaviors: [
+        'Actively engages with broader team in discussions regarding Strategy and Principles. Helps teammates understand how their work connects to overall strategy,', 'purpose and design principles.',
+        'Demonstrates the ability to translate between basic business requirements and technical requirements.',
       ],
     },
   },
@@ -102,6 +121,14 @@ export const ROLE_EXPECTATIONS = {
         'Leads the team through complex decisions and effectively resolves disagreements between teammates.',
       ],
     },
+    ALIGNMENT: {
+      behaviors: [
+        'Helps guide product and engineering toward fulfilling Strategy and Design principles. Creates documentation that connects strategy, purpose and design principles with overall team objectives.',
+        'Identifies appropriate metrics that tie back to business objectives and measures those when making decisions.',
+        'Understands various product offerings and how they work together.',
+        'Integrates business needs into project planning.',
+      ],
+    },
   },
   SENIOR_STAFF_ENGINEER: {
     TECHNICAL_EXCELLENCE: {
@@ -127,6 +154,14 @@ export const ROLE_EXPECTATIONS = {
         'Collaborates across functions including areas outside of engineering.',
         'Designs and refines processes that encourage a culture of collaboration.',
         'Seeks to create solid working relationships with all teammates through open and honest dialog. Encourages others to disagree and commit in order to avoid unresolved conflict.',
+      ],
+    },
+    ALIGNMENT: {
+      behaviors: [
+        'Adds clarity and nuanced understanding to Strategy and Design principles.  Ensure that we are finding effective ways to measure our success against strategy. ',
+        'Can be a representative for engineering in company-level discussions.',
+        'Helps guide their team on broader impact and mentors them on how their decisions impact Gloo.',
+        'Aligns technology strategy with product strategy in partnership with Directors and VP.',
       ],
     },
   },
@@ -157,6 +192,11 @@ export const ROLE_EXPECTATIONS = {
         'Engages individuals from other teams and departments around ongoing issues, concerns, technical issues and solutions.',
       ],
     },
+    ALIGNMENT: {
+      behaviors: [
+        'TODO: Inherit from Senior Staff Engineer',
+      ],
+    },
   },
   PRINCIPAL_ENGINEER: {
     TECHNICAL_EXCELLENCE: {
@@ -178,6 +218,13 @@ export const ROLE_EXPECTATIONS = {
       behaviors: [
         'Actively works with company leadership to drive solutions that solve broader issues.',
         'Effectively seeks feedback on major technical initiatives from all company stakeholders, foresees potential downstream effects and communicates and crafts roadmaps with full transparency.',
+      ],
+    },
+    ALIGNMENT: {
+      behaviors: [
+        'Understands, promotes and clarifies the company vision and principles throughout engineering.',
+        'Connects the work we’re doing to the principles and goals of the company.',
+        'Demonstrates a deep understanding of entire product feature set.',
       ],
     },
   },
@@ -206,6 +253,11 @@ export const ROLE_EXPECTATIONS = {
         'Coordinates (with other volunteers) learning and collaboration opportunities (lunch ‘n’ learns, community events, user groups, conference attendance).',
         'Identifies and addresses needs for more collaboration (off-sites discussions, multi-team sync meetings, etc.).',
         'Communicates engineering initiatives, progress, tradeoffs, etc. to a large audience of technical / non technical people.',
+      ],
+    },
+    ALIGNMENT: {
+      behaviors: [
+        'TODO: Inherit from Principal Engineer',
       ],
     },
   },
