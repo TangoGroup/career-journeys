@@ -1,5 +1,6 @@
 import styles from './RoleSkillExpectations.styles';
 import { ROLE_EXPECTATIONS } from '../constants/expectations';
+import ROLES from '../constants/roles';
 import SKILLS from '../constants/skills';
 import SkillIcon from './SkillIcon';
 
@@ -18,26 +19,23 @@ const RoleSkillExpectations = (props) => {
         <SkillIcon skillKey={skillKey} className="icon" />
       </div>
       <div className="body">
-        <Expectations expectations={expectations} skillKey={skillKey} />
+        {expectations.inheritsBehaviorsFrom && <InheritedBehaviors inheritsBehaviorsFrom={expectations.inheritsBehaviorsFrom} skillKey={skillKey} />}
+        {!expectations.inheritsBehaviorsFrom && <Behaviors behaviors={expectations.behaviors} />}
       </div>
       <style jsx>{styles}</style>
     </div>
   );
 };
 
-const Expectations = (props) => {
-  const { expectations, skillKey } = props;
-  if (expectations.inheritsBehaviorsFrom) {
-    const inheritedExpectations = ROLE_EXPECTATIONS[expectations.inheritsBehaviorsFrom][skillKey];
-    return (
-      <div>
-        <p>Inherits from {expectations.inheritsBehaviorsFrom}</p>
-        <Behaviors behaviors={inheritedExpectations.behaviors} />
-      </div>
-    );
-  }
-
-  return <Behaviors behaviors={expectations.behaviors} />;
+const InheritedBehaviors = (props) => {
+  const { inheritsBehaviorsFrom, skillKey } = props;
+  const inheritedExpectations = ROLE_EXPECTATIONS[inheritsBehaviorsFrom][skillKey];
+  return (
+    <div>
+      <p>Inherits from <strong>{ROLES[inheritsBehaviorsFrom].title}</strong>:</p>
+      <Behaviors behaviors={inheritedExpectations.behaviors} />
+    </div>
+  );
 };
 
 const Behaviors = (props) => {
