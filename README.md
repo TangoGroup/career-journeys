@@ -11,9 +11,8 @@ npm run dev
 # Visit http://localhost:3000
 ```
 
-# Contributions
-As engineering at Gloo evolves, so too must this framework. We want to make it as easy as possible to request changes from anybody but still
-retain an approval process, auditing, history, etc. just like you would want in any code base. As such, we use git to manage changes in the framework.
+# How to Contribute
+As engineering at Gloo evolves, so too must this framework. We want to make it as easy as possible for anybody to request changes but still retain an approval process, auditing, history, etc. just like you would want in any code base. As such, we use git to manage changes in the framework.
 
 There are a few ways to contribute:
 
