@@ -15,17 +15,9 @@ const ROLES = {
     title: 'Staff Engineer',
     description: 'A brief paragraph about what it means to be a Staff Engineer',
   },
-  TEAM_LEAD: {
-    title: 'Team Lead',
-    description: 'A brief paragraph about what it means to be a Team Lead',
-  },
   SENIOR_STAFF_ENGINEER: {
     title: 'Senior Staff Engineer',
     description: 'A brief paragraph about what it means to be a Senior Staff Engineer',
-  },
-  ARCHITECT: {
-    title: 'Architect',
-    description: 'A brief paragraph about what it means to be an Architect',
   },
   ENGINEERING_MANAGER: {
     title: 'Engineering Manager',
@@ -34,10 +26,6 @@ const ROLES = {
   PRINCIPAL_ENGINEER: {
     title: 'Principal Engineer',
     description: 'A brief paragraph about what it means to be a Principal Engineer',
-  },
-  SENIOR_ARCHITECT: {
-    title: 'Senior Architect',
-    description: 'A brief paragraph about what it means to be a Senior Architect',
   },
   ENGINEERING_DIRECTOR: {
     title: 'Engineering Director',

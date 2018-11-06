@@ -1,5 +1,5 @@
 import css from 'styled-jsx/css';
-import THEME from '../constants/theme';
+import THEME from '../lib/theme';
 
 const styles = css`
   .root {
@@ -22,7 +22,7 @@ const styles = css`
   .body {
     flex-grow: 1;
     background-color: #efefef;
-    padding: 0.8rem 0.8rem 2.4rem 2.4rem;
+    padding: 2.4rem;
   }
 
   .body ul {

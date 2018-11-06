@@ -1,5 +1,5 @@
 import styles from './SkillCard.styles';
-import SKILLS from '../constants/skills';
+import SKILLS from '../data/skills';
 import SkillIcon from './SkillIcon';
 
 const SkillCard = (props) => {
@@ -14,9 +14,6 @@ const SkillCard = (props) => {
       </div>
       <div className="body">
         <p>{skill.description}</p>
-        <ul>
-          {skill.details.map(detail => <li key={detail}>{detail}</li>)}
-        </ul>
       </div>
       <style jsx>{styles}</style>
     </div>

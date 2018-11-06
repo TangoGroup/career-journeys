@@ -1,6 +1,7 @@
 import styles from './RoleSkillExpectations.styles';
-import { ROLE_EXPECTATIONS } from '../constants/expectations';
-import SKILLS from '../constants/skills';
+import { ROLE_EXPECTATIONS } from '../data/expectations';
+import SKILLS from '../data/skills';
+import Expectations from './Expectations';
 import SkillIcon from './SkillIcon';
 
 const RoleSkillExpectations = (props) => {
@@ -18,13 +19,7 @@ const RoleSkillExpectations = (props) => {
         <SkillIcon skillKey={skillKey} className="icon" />
       </div>
       <div className="body">
-        <p>{expectations.description}</p>
-        <p>Behaviors:</p>
-        <ul>
-          {expectations.behaviors.map(behavior => (
-            <li key={behavior}>{behavior}</li>
-          ))}
-        </ul>
+        <Expectations expectations={expectations} skillKey={skillKey} />
       </div>
       <style jsx>{styles}</style>
     </div>

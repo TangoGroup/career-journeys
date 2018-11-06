@@ -10,6 +10,7 @@ module.exports = {
     }], // Best Practices group decided to alter this
     'no-underscore-dangle': 'off', // Some keys returned from GraphQL may have dangling underscores
     'react/jsx-filename-extension': 'off',
+    'react/jsx-one-expression-per-line': 'off',
     'react/no-danger': 'off', // The term dangerouslySetInnerHTML should be enough warning
     'react/prop-types': 'off', // Temporarily disable this
     'react/react-in-jsx-scope': 'off',

@@ -1,4 +1,4 @@
-import ROLES from '../constants/roles';
+import ROLES from '../data/roles';
 import Role from './Role';
 
 const RoleList = () => (

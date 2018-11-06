@@ -1,4 +1,4 @@
-import ROLES from '../constants/roles';
+import ROLES from '../data/roles';
 import styles from './RoleNavigation.styles';
 
 const RoleNavigation = () => (

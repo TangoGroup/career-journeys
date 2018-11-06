@@ -1,5 +1,5 @@
 import css from 'styled-jsx/css';
-import THEME from '../constants/theme';
+import THEME from '../lib/theme';
 
 export const contentStyles = css`
   padding-left: ${THEME.contentContainerPadding};

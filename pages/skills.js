@@ -1,16 +1,7 @@
-import SKILLS from '../constants/skills';
-import Skill from '../components/Skill';
-import SkillsOverview from '../components/SkillsOverview';
+import SkillsOverview from '../md/SkillsOverview.mdx';
 
 const Skills = () => (
-  <div>
-    <SkillsOverview />
-    <div>
-      {Object.keys(SKILLS).map(skillKey => (
-        <Skill key={skillKey} skillKey={skillKey} />
-      ))}
-    </div>
-  </div>
+  <SkillsOverview />
 );
 
 export default Skills;
