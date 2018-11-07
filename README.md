@@ -28,3 +28,6 @@ For people who want to make simple changes straight in github's web app.
 2. Click the **pencil** icon in the menu for the document to edit.
 3. Complete your edits.
 4. Add a commit message, select the **Create a new branch...** option
+
+## Issues
+If you are not comfortable proposing changes via Pull Request, you can use the `Issues` tab to log an issue.
