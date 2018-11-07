@@ -3,7 +3,8 @@ import THEME from '../lib/theme';
 
 const styles = css`
   .root {
-    display: flex;
+    display: grid;
+    grid-template-columns: 2fr 8fr;
     margin: 2.4rem 0;
   }
 
@@ -11,7 +12,6 @@ const styles = css`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-basis: 15%;
     background-color: ${THEME.colors.green};
     padding: 2.4rem;
     color: #fff;
@@ -20,7 +20,6 @@ const styles = css`
   }
 
   .body {
-    flex-grow: 1;
     background-color: #efefef;
     padding: 0.8rem 0.8rem 2.4rem 2.4rem;
   }
