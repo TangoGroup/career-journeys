@@ -12,7 +12,6 @@ const styles = css`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-basis: 15%;
     background-color: ${THEME.colors.green};
     padding: 2.4rem;
     color: #fff;
