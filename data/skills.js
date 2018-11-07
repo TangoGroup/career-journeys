@@ -7,8 +7,8 @@ const SKILLS = {
     name: 'Delivery',
     description: 'Executes against objectives in a timely manner within budget and with high quality standards.',
   },
-  ALIGNMENT: {
-    name: 'Alignment',
+  STRATEGIC_CLARITY: {
+    name: 'Strategic Clarity',
     description: 'Contributes to Gloo’s organizational goals with a deep understanding of purpose, mission and business strategy.',
   },
   COLLABORATION: {
