@@ -7,6 +7,13 @@ export const ROLE_EXPECTATIONS = {
         'Can solve small-sized problems, can understand and contribute to solving medium-sized problems.',
         'Demonstrates basic understanding of testing frameworks.',
       ],
+      alternatives: {
+        MANUAL_TESTING: {
+          behaviors: [
+            'Something for manual testing Associate Engineer',
+          ],
+        },
+      },
     },
     DELIVERY: {
       behaviors: [
