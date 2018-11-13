@@ -10,7 +10,10 @@ export const ROLE_EXPECTATIONS = {
       alternatives: {
         MANUAL_TESTING: {
           behaviors: [
-            'Something for manual testing Associate Engineer',
+            'Able to follow test cases and acceptance criteria when executing manual testing.',
+            'Support in the creation and maintenance of documentation (Test Cases, Process docs, Test Plans).',
+            'Troubleshoot defects and accurately pinpoint errors.',
+            'Understand basic web and mobile testing strategies for testing cross-browser and mobile apps.',
           ],
         },
       },
@@ -51,6 +54,16 @@ export const ROLE_EXPECTATIONS = {
         'Tests new code thoroughly, both locally, and in production once shipped.',
         'Develops new instances of existing architecture, or minor improvements to existing architecture.',
       ],
+      alternatives: {
+        MANUAL_TESTING: {
+          behaviors: [
+            'Perform exploratory, functional, regression, integration and end-to-end testing.',
+            'Able run automated tests and troubleshoot failures.',
+            'Able to test mobile apps against different versions and environments.',
+            'Able to test Web on multi-browsers while using DevTools proficiently to troubleshoot errors.',
+          ],
+        },
+      },
     },
     DELIVERY: {
       behaviors: [
@@ -91,6 +104,16 @@ export const ROLE_EXPECTATIONS = {
         'Can solve large-sized problems with well designed and architected solutions.',
         'Designs and implements testable solutions to problems. Consistently writes tests for new features and bug fixes. Adds tests for uncovered areas.',
       ],
+      alternatives: {
+        MANUAL_TESTING: {
+          behaviors: [
+            'Assist  in architecting manual test suites and frameworks.',
+            'Maintain and create new automation test cases.',
+            'Able to test multiple clients (Android/iOS/web) and platform implementations.',
+            'Assist in managing test suites, team boards, and process documentation',
+          ],
+        },
+      },
     },
     DELIVERY: {
       behaviors: [
