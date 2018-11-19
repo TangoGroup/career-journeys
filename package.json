@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "build": "next build",
-    "now-build": "build",
+    "now-build": "next build",
     "dev": "next",
     "export": "next export",
     "lint": "eslint --ext .js .",
