@@ -22,7 +22,7 @@ export const ROLE_EXPECTATIONS = {
         'Effectively proposes dissenting points of view during team discussions.',
       ],
     },
-    ALIGNMENT: {
+    STRATEGIC_CLARITY: {
       behaviors: [
         'Understands and can Explain Gloo’s Core Purpose / Mission  and Design Principles',
         'Basic understanding of priorities and goals for the team',
@@ -62,7 +62,7 @@ export const ROLE_EXPECTATIONS = {
 
       ],
     },
-    ALIGNMENT: {
+    STRATEGIC_CLARITY: {
       behaviors: [
         'Can draw connection between some of Gloo’s Products and Strategy and Gloo’s Purpose / Mission and Design Principles.',
         'Shows interest in learning more about others parts of the company.',
@@ -98,7 +98,7 @@ export const ROLE_EXPECTATIONS = {
         'Seeks to resolve disagreements with open and honest communication. Learns to disagree and commit. ',
       ],
     },
-    ALIGNMENT: {
+    STRATEGIC_CLARITY: {
       behaviors: [
         'Actively engages with broader team in discussions regarding Strategy and Principles. Helps teammates understand how their work connects to overall strategy,', 'purpose and design principles.',
         'Demonstrates the ability to translate between basic business requirements and technical requirements.',
@@ -134,7 +134,7 @@ export const ROLE_EXPECTATIONS = {
         'Leads the team through complex decisions and effectively resolves disagreements between teammates.',
       ],
     },
-    ALIGNMENT: {
+    STRATEGIC_CLARITY: {
       behaviors: [
         'Helps guide product and engineering toward fulfilling Strategy and Design principles. Creates documentation that connects strategy, purpose and design principles with overall team objectives.',
         'Identifies appropriate metrics that tie back to business objectives and measures those when making decisions.',
@@ -174,7 +174,7 @@ export const ROLE_EXPECTATIONS = {
         'Seeks to create solid working relationships with all teammates through open and honest dialog. Encourages others to disagree and commit in order to avoid unresolved conflict.',
       ],
     },
-    ALIGNMENT: {
+    STRATEGIC_CLARITY: {
       behaviors: [
         'Adds clarity and nuanced understanding to Strategy and Design principles.  Ensure that we are finding effective ways to measure our success against strategy. ',
         'Can be a representative for engineering in company-level discussions.',
@@ -219,7 +219,7 @@ export const ROLE_EXPECTATIONS = {
         'Engages individuals from other teams and departments around ongoing issues, concerns, technical issues and solutions.',
       ],
     },
-    ALIGNMENT: {
+    STRATEGIC_CLARITY: {
       inheritsBehaviorsFrom: 'SENIOR_STAFF_ENGINEER',
     },
     LEADERSHIP: {
@@ -246,7 +246,7 @@ export const ROLE_EXPECTATIONS = {
         'Effectively seeks feedback on major technical initiatives from all company stakeholders, foresees potential downstream effects and communicates and crafts roadmaps with full transparency.',
       ],
     },
-    ALIGNMENT: {
+    STRATEGIC_CLARITY: {
       behaviors: [
         'Understands, promotes and clarifies the company vision and principles throughout engineering.',
         'Connects the work we’re doing to the principles and goals of the company.',
@@ -288,7 +288,7 @@ export const ROLE_EXPECTATIONS = {
         'Communicates engineering initiatives, progress, tradeoffs, etc. to a large audience of technical / non technical people.',
       ],
     },
-    ALIGNMENT: {
+    STRATEGIC_CLARITY: {
       inheritsBehaviorsFrom: 'PRINCIPAL_ENGINEER',
     },
     LEADERSHIP: {
