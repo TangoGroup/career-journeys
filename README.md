@@ -1,5 +1,5 @@
 # Career Journeys
-Web application for Gloo Engineering's career journey framework. Test
+Web application for Gloo Engineering's career journey framework.
 
 # Getting Started
 ```
