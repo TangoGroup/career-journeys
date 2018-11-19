@@ -2,5 +2,8 @@
   "name": "career-journeys",
   "alias": "career-journeys",
   "type": "static",
-  "public": true
+  "public": true,
+  "builds": [
+    { "src": "package.json", "use": "@now/static-build" }
+  ]
 }
