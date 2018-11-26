@@ -47,6 +47,9 @@ const styles = css`
   }
 
   .role {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     padding: 1.6rem;
     margin: 0.8rem;
