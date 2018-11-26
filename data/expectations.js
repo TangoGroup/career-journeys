@@ -1,3 +1,5 @@
+import QA_ROLE_EXPECTATIONS from './qa-expectations';
+
 export const ROLE_EXPECTATIONS = {
   ASSOCIATE_ENGINEER: {
     TECHNICAL_EXCELLENCE: {
@@ -295,6 +297,7 @@ export const ROLE_EXPECTATIONS = {
       inheritsBehaviorsFrom: 'PRINCIPAL_ENGINEER',
     },
   },
+  ...QA_ROLE_EXPECTATIONS,
 };
 
 export const SKILL_EXPECTATIONS = {};

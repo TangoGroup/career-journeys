@@ -1,3 +1,5 @@
+import QA_ROLES from '../data/qa-roles';
+import RoleList from '../components/RoleList';
 import QARolesDiagram from '../components/QARolesDiagram';
 
 # Roles and Responsibilities
@@ -11,3 +13,6 @@ QA Roles begin with a shared **QA Engineer** track and then fork at later levels
 **People Managers** are individuals with QA and leadership expertise who are focused on leading and growing the QA team.
 
 <QARolesDiagram />
+
+## Role Expectations
+<RoleList roles={QA_ROLES.asArray} />

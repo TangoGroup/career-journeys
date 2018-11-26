@@ -19,6 +19,10 @@ const QA_ROLES = {
     title: 'Senior QA Automation Engineer',
     description: 'A brief paragraph about what it means to be a Seniot QA Automation Engineer',
   },
+  STAFF_QA_AUTOMATION_ENGINEER: {
+    title: 'Staff QA Automation Engineer',
+    description: 'A brief paragraph about what it means to be a Staff QA Automation Engineer',
+  },
   QA_MANAGER: {
     title: 'QA Manager',
     description: 'A brief paragraph about what it means to be a QA Manager',
@@ -27,10 +31,8 @@ const QA_ROLES = {
     title: 'QA Director',
     description: 'A brief paragraph about what it means to be an QA Director',
   },
-  STAFF_QA_AUTOMATION_ENGINEER: {
-    title: 'Staff QA Automation Engineer',
-    description: 'A brief paragraph about what it means to be a Staff QA Automation Engineer',
-  },
 };
+
+QA_ROLES.asArray = Object.keys(QA_ROLES).map(key => ({ ...QA_ROLES[key], key }));
 
 export default QA_ROLES;
