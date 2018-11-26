@@ -1,3 +1,4 @@
+import ROLES from '../data/roles';
 import FunctionList from '../components/FunctionList';
 import RoleList from '../components/RoleList';
 import RolesDiagram from '../components/RolesDiagram';
@@ -27,7 +28,7 @@ Determining when to progress from one role to the next is a discussion that shou
 When a manager believes their direct report is ready to progress to a new role, they are expected to present their recommendation to a group of their peers in management. The purpose of this process is to ensure fairness and consistency when it comes to progression.
 
 ## Role Expectations
-<RoleList />
+<RoleList roles={ROLES.asArray} />
 
 ## Functions
 Functions describe responsibilities that you may be expected to fulfill for a period of time.

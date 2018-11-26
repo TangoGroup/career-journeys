@@ -1,12 +1,12 @@
-import ROLES from '../data/roles';
 import Role from './Role';
 
-const RoleList = () => (
-  <div>
-    {Object.keys(ROLES).map(roleKey => (
-      <Role key={roleKey} roleKey={roleKey} />
-    ))}
-  </div>
-);
+const RoleList = (props) => {
+  const { roles } = props;
+  return (
+    <div>
+      {roles.map(role => <Role key={role.key} role={role} />)}
+    </div>
+  );
+};
 
 export default RoleList;

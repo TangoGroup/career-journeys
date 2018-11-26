@@ -33,4 +33,6 @@ const ROLES = {
   },
 };
 
+ROLES.asArray = Object.keys(ROLES).map(key => ({ ...ROLES[key], key }));
+
 export default ROLES;
