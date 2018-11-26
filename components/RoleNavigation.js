@@ -1,19 +1,17 @@
-import ROLES from '../data/roles';
 import styles from './RoleNavigation.styles';
 
-const RoleNavigation = () => (
-  <div>
-    {Object.keys(ROLES).map((roleKey) => {
-      const { title } = ROLES[roleKey];
-
-      return (
-        <div key={roleKey}>
-          <a href={`#${roleKey}`} className="role-link">{title}</a>
+const RoleNavigation = (props) => {
+  const { roles } = props;
+  return (
+    <div>
+      {roles.map(role => (
+        <div key={role.key}>
+          <a href={`#${role.key}`} className="role-link">{role.title}</a>
         </div>
-      );
-    })}
-    <style jsx>{styles}</style>
-  </div>
-);
+      ))}
+      <style jsx>{styles}</style>
+    </div>
+  );
+};
 
 export default RoleNavigation;

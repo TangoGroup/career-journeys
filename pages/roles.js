@@ -1,3 +1,4 @@
+import ROLES from '../data/roles';
 import RolesOverview from '../md/RolesOverview.mdx';
 import RoleNavigation from '../components/RoleNavigation';
 import SideNavLayout from '../components/SideNavLayout';
@@ -5,7 +6,7 @@ import SideNavLayout from '../components/SideNavLayout';
 const Roles = () => (
   <SideNavLayout>
     <SideNavLayout.Nav>
-      <RoleNavigation />
+      <RoleNavigation roles={ROLES.asArray} />
     </SideNavLayout.Nav>
     <SideNavLayout.Content>
       <RolesOverview />
