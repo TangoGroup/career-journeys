@@ -25,6 +25,6 @@ const QA_ROLES = {
   },
 };
 
-QA_ROLES.asArray = Object.keys(QA_ROLES).map(key => ({ ...QA_ROLES[key], key }));
+export const QA_ROLES_ARRAY = Object.keys(QA_ROLES).map(key => ({ ...QA_ROLES[key], key }));
 
 export default QA_ROLES;
