@@ -1,19 +1,18 @@
-import ROLES from '../data/roles';
 import SKILLS from '../data/skills';
 import SkillRoleExpectations from './SkillRoleExpectations';
 
-const Role = (props) => {
-  const { skillKey } = props;
+const Skill = (props) => {
+  const { roles, skillKey } = props;
   const skill = SKILLS[skillKey];
   return (
     <div key={skillKey}>
       <h3>{skill.name}</h3>
       <p>{skill.description}</p>
-      {Object.keys(ROLES).map(roleKey => (
-        <SkillRoleExpectations key={roleKey} roleKey={roleKey} skillKey={skillKey} />
+      {roles.map(role => (
+        <SkillRoleExpectations key={role.key} role={role} skillKey={skillKey} />
       ))}
     </div>
   );
 };
 
-export default Role;
+export default Skill;
