@@ -48,7 +48,7 @@ const QA_ROLE_EXPECTATIONS = {
         'Assist  in architecting manual test suites and frameworks.',
         'Maintain and create new automation test cases.',
         'Able to test multiple clients (Android/iOS/web) and platform implementations.',
-        'Assist in managing test suites, team boards, and process documentation',
+        'Assist in managing test suites, team boards, and process documentation.',
       ],
     },
     DELIVERY: {

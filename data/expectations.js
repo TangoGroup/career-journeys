@@ -102,7 +102,7 @@ export const ROLE_EXPECTATIONS = {
     },
     STRATEGIC_CLARITY: {
       behaviors: [
-        'Actively engages with broader team in discussions regarding Strategy and Principles. Helps teammates understand how their work connects to overall strategy,', 'purpose and design principles.',
+        'Actively engages with broader team in discussions regarding Strategy and Principles. Helps teammates understand how their work connects to overall strategy, purpose and design principles.',
         'Demonstrates the ability to translate between basic business requirements and technical requirements.',
       ],
     },
