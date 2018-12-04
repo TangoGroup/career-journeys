@@ -24,10 +24,10 @@ const QA_ROLE_EXPECTATIONS = {
   QA_ENGINEER: {
     TECHNICAL_EXCELLENCE: {
       behaviors: [
-        'Perform exploratory, functional, regression, integration and end-to-end testing.',
-        'Able run automated tests and troubleshoot failures.',
-        'Able to test mobile apps against different versions and environments.',
-        'Able to test Web on multi-browsers while using DevTools proficiently to troubleshoot errors.',
+        'Create and maintain documentation (Test Cases, Process docs, Test Plans).',
+        'Perform exploratory, functional, regression, integration and end-to-end testing across mobile and web clients.',
+        'Proficient in trouble shooting errors using various tools (Devtools, Charles etc..).',
+
       ],
     },
     DELIVERY: {

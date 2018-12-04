@@ -59,7 +59,7 @@ export const ROLE_EXPECTATIONS = {
       behaviors: [
         'Communicates with the wider team appropriately, focusing on timeliness and good quality conversations.',
         'Puts team priorities over their own.',
-        'Works closely with QA to ensure work meets the acceptance criteria.',
+        'Works closely with peers to ensure work meets the acceptance criteria.',
         'Effectively listens to opposing points of view during team discussions and allows alternate ideas to influence perspective.',
 
       ],
