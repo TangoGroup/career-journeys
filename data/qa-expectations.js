@@ -27,7 +27,6 @@ const QA_ROLE_EXPECTATIONS = {
         'Create and maintain documentation (Test Cases, Process docs, Test Plans).',
         'Perform exploratory, functional, regression, integration and end-to-end testing across mobile and web clients.',
         'Proficient in trouble shooting errors using various tools (Devtools, Charles etc..).',
-
       ],
     },
     DELIVERY: {
