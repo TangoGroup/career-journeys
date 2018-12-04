@@ -96,7 +96,6 @@ const QA_ROLE_EXPECTATIONS = {
         'Proficiently able to create automated test scripts for mobile and web clients.',
         'Proficiently able to configure and maintain automation test environments.',
         'Basic understanding of automation testing for service and back-end layers.',
-
       ],
     },
     DELIVERY: {
@@ -115,7 +114,10 @@ const QA_ROLE_EXPECTATIONS = {
   STAFF_QA_AUTOMATION_ENGINEER: {
     TECHNICAL_EXCELLENCE: {
       behaviors: [
-        'Understanding of automation architecture',
+        'Adept in implementing automation architecture and overarching automation test strategy using various technologies.',
+        'Extensive knowledge in supporting continuous integration and automated build systems.',
+        'Adept knowledge in automation of complex platform layers (Client, API, Services, Back-end).',
+        'Very strong skills in analysis and visualization of test data.',
       ],
     },
     DELIVERY: {
