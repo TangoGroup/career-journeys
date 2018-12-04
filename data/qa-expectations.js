@@ -68,11 +68,11 @@ const QA_ROLE_EXPECTATIONS = {
   QA_AUTOMATION_ENGINEER: {
     TECHNICAL_EXCELLENCE: {
       behaviors: [
-        'Basic understanding of an OPP language (Swift, Java, C#, Objective-C, etc…) and/or scripting language (python, javascript etc..)',
-        'Basic understanding on Automation Frameworks (Selenium, Cucumber Appium etc…)',
-        'Proficiently able to transcribe manual test cases to automated (Gherkin) test cases',
-        'Proficiently able to write automated test scripts from automation (Gherkin) test cases',
-        'Proficiently able to troubleshoot and fix broken test scripts',
+        'Basic understanding of an OPP language (Swift, Java, C#, Objective-C, etc…) and/or scripting language (python, javascript etc..).',
+        'Basic understanding on Automation Frameworks (Selenium, Cucumber Appium etc…).',
+        'Proficiently able to transcribe manual test cases to automated (Gherkin) test cases.',
+        'Proficiently able to write automated test scripts from automation (Gherkin) test cases.',
+        'Proficiently able to troubleshoot and fix broken test scripts.',
       ],
     },
     DELIVERY: {
@@ -91,12 +91,12 @@ const QA_ROLE_EXPECTATIONS = {
   SENIOR_QA_AUTOMATION_ENGINEER: {
     TECHNICAL_EXCELLENCE: {
       behaviors: [
-        'Knowledge of an OOP language (Swift,Java, C#, Objective-C, etc…)',
-        'Knowledge of a scripting language (python, javascript etc..)',
-        'Understanding of SQL',
-        'Understanding of API testing tools',
-        'Understanding of Automation Frameworks (selenium, cucumber etc…)',
-        'Understanding of Gherkin',
+        'Demonstrated skill in an OPP language (Swift, Java, C#, Objective-C, etc…) and/or scripting language (Python, Javascript etc..).',
+        'Proficient working with Automation Frameworks (Selenium, Cucumber, Appium etc…).',
+        'Proficiently able to create automated test scripts for mobile and web clients.',
+        'Proficiently able to configure and maintain automation test environments.',
+        'Basic understanding of automation testing for service and back-end layers.',
+
       ],
     },
     DELIVERY: {
