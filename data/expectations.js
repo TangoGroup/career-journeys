@@ -89,7 +89,7 @@ export const ROLE_EXPECTATIONS = {
     },
     DELIVERY: {
       behaviors: [
-        'Has end-to-end responsibility on projects of increasing complexity and contributes to code shared across projects.',
+        'Has end-to-end responsibility on projects of increasing complexity and contributes across projects.',
         'Works with product and design teams to tease out requirements / details.',
       ],
     },
