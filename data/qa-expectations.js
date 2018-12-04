@@ -68,12 +68,11 @@ const QA_ROLE_EXPECTATIONS = {
   QA_AUTOMATION_ENGINEER: {
     TECHNICAL_EXCELLENCE: {
       behaviors: [
-        'Knowledge of automation frameworks',
-        'Basic understanding of SQL',
-        'Basic understanding of API testing tools',
-        'Basic understanding of browser development tools (Chrome DevTools)',
-        'Basic understanding of mobile debugging tools (Charles)',
-        'Basic understanding of black-box, gray-box and white-box testing',
+        'Basic understanding of an OPP language (Swift, Java, C#, Objective-C, etc…) and/or scripting language (python, javascript etc..)',
+        'Basic understanding on Automation Frameworks (Selenium, Cucumber Appium etc…)',
+        'Proficiently able to transcribe manual test cases to automated (Gherkin) test cases',
+        'Proficiently able to write automated test scripts from automation (Gherkin) test cases',
+        'Proficiently able to troubleshoot and fix broken test scripts',
       ],
     },
     DELIVERY: {
