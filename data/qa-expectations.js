@@ -67,7 +67,7 @@ const QA_ROLE_EXPECTATIONS = {
   QA_AUTOMATION_ENGINEER: {
     TECHNICAL_EXCELLENCE: {
       behaviors: [
-        'Basic understanding of an OPP language (Swift, Java, C#, Objective-C, etc…) and/or scripting language (python, javascript etc..).',
+        'Basic understanding of object oriented programming in a modern language.',
         'Basic understanding on Automation Frameworks (Selenium, Cucumber Appium etc…).',
         'Proficiently able to transcribe manual test cases to automated (Gherkin) test cases.',
         'Proficiently able to write automated test scripts from automation (Gherkin) test cases.',
@@ -90,7 +90,7 @@ const QA_ROLE_EXPECTATIONS = {
   SENIOR_QA_AUTOMATION_ENGINEER: {
     TECHNICAL_EXCELLENCE: {
       behaviors: [
-        'Demonstrated skill in an OPP language (Swift, Java, C#, Objective-C, etc…) and/or scripting language (Python, Javascript etc..).',
+        'Demonstrated skill in object oriented programming in a modern language.',
         'Proficient working with Automation Frameworks (Selenium, Cucumber, Appium etc…).',
         'Proficiently able to create automated test scripts for mobile and web clients.',
         'Proficiently able to configure and maintain automation test environments.',
