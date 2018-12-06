@@ -1,17 +1,8 @@
 import css from 'styled-jsx/css';
 import THEME from '../lib/theme';
 
-const styles = css.global`
-  html {
-    font-size: 10px; // for rems
-    font-family: Helvetica, sans-serif
-  }
-
-  body {
-    font-size: 16px;
-  }
-
-  .hidden-anchor-root {
+const styles = css`
+  .root {
     position: relative;
   }
 

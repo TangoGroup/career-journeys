@@ -1,15 +1,15 @@
-import { ROLES_ARRAY } from '../data/roles';
-import RolesOverview from '../md/RolesOverview.mdx';
+import { QA_ROLES_ARRAY } from '../data/qa-roles';
+import QARolesOverview from '../md/QARolesOverview.mdx';
 import RoleNavigation from '../components/RoleNavigation';
 import SideNavLayout from '../components/SideNavLayout';
 
 const Roles = () => (
   <SideNavLayout>
     <SideNavLayout.Nav>
-      <RoleNavigation roles={ROLES_ARRAY} />
+      <RoleNavigation roles={QA_ROLES_ARRAY} />
     </SideNavLayout.Nav>
     <SideNavLayout.Content>
-      <RolesOverview />
+      <QARolesOverview />
     </SideNavLayout.Content>
   </SideNavLayout>
 );

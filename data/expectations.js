@@ -1,3 +1,5 @@
+import QA_ROLE_EXPECTATIONS from './qa-expectations';
+
 export const ROLE_EXPECTATIONS = {
   ASSOCIATE_ENGINEER: {
     TECHNICAL_EXCELLENCE: {
@@ -57,7 +59,7 @@ export const ROLE_EXPECTATIONS = {
       behaviors: [
         'Communicates with the wider team appropriately, focusing on timeliness and good quality conversations.',
         'Puts team priorities over their own.',
-        'Works closely with QA to ensure work meets the acceptance criteria.',
+        'Works closely with peers to ensure work meets the acceptance criteria.',
         'Effectively listens to opposing points of view during team discussions and allows alternate ideas to influence perspective.',
 
       ],
@@ -87,7 +89,7 @@ export const ROLE_EXPECTATIONS = {
     },
     DELIVERY: {
       behaviors: [
-        'Has end-to-end responsibility on projects of increasing complexity and contributes to code shared across projects.',
+        'Has end-to-end responsibility on projects of increasing complexity and contributes across projects.',
         'Works with product and design teams to tease out requirements / details.',
       ],
     },
@@ -100,7 +102,7 @@ export const ROLE_EXPECTATIONS = {
     },
     STRATEGIC_CLARITY: {
       behaviors: [
-        'Actively engages with broader team in discussions regarding Strategy and Principles. Helps teammates understand how their work connects to overall strategy,', 'purpose and design principles.',
+        'Actively engages with broader team in discussions regarding Strategy and Principles. Helps teammates understand how their work connects to overall strategy, purpose and design principles.',
         'Demonstrates the ability to translate between basic business requirements and technical requirements.',
       ],
     },
@@ -295,6 +297,7 @@ export const ROLE_EXPECTATIONS = {
       inheritsBehaviorsFrom: 'PRINCIPAL_ENGINEER',
     },
   },
+  ...QA_ROLE_EXPECTATIONS,
 };
 
 export const SKILL_EXPECTATIONS = {};

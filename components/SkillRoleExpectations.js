@@ -1,15 +1,12 @@
 import styles from './SkillRoleExpectations.styles';
 import { ROLE_EXPECTATIONS } from '../data/expectations';
-import ROLES from '../data/roles';
 import Expectations from './Expectations';
 
 const SkillRoleExpectations = (props) => {
-  const { roleKey, skillKey } = props;
+  const { role, skillKey } = props;
 
-  const expectations = ROLE_EXPECTATIONS[roleKey][skillKey];
+  const expectations = ROLE_EXPECTATIONS[role.key][skillKey];
   if (!expectations) return null;
-
-  const role = ROLES[roleKey];
 
   return (
     <div className="root">

@@ -1,3 +1,5 @@
+import { ROLES_ARRAY } from '../data/roles';
+import { QA_ROLES_ARRAY } from '../data/qa-roles';
 import SkillCards from '../components/SkillCards';
 import SkillList from '../components/SkillList';
 
@@ -16,5 +18,16 @@ Below is a list of core characteristics that great teammates should demonstrate 
 
 **Growth:** You are committed to the growth of yourself and your teammates.
 
-## Skill Expectations
-<SkillList />
+<div className="hidden-anchor-root">
+  <div id="engineers" className="hidden-anchor" />
+</div>
+
+## Engineer Skills
+<SkillList roles={ROLES_ARRAY} />
+
+<div className="hidden-anchor-root">
+  <div id="qa-engineers" className="hidden-anchor" />
+</div>
+
+## QA Engineer Skills
+<SkillList roles={QA_ROLES_ARRAY} />
