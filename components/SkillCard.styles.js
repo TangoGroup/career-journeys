@@ -18,7 +18,7 @@ const styles = css`
 
   .body {
     background-color: #efefef;
-    padding: 0.8rem 0.8rem 2.4rem 2.4rem;
+    padding: 0.8rem 2.4rem;
     flex-grow: 1;
   }
 
