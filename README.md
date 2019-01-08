@@ -29,5 +29,5 @@ For people who want to make simple changes straight in github's web app.
 3. Complete your edits.
 4. Add a commit message, select the **Create a new branch...** option
 
-## Issues
-If you are not comfortable proposing changes via Pull Request, you can use the `Issues` tab to log an issue.
+## Clubhouse
+If you are not comfortable proposing changes via Pull Request, you can create a story in the [Career Journeys Clubhouse project](https://app.clubhouse.io/glooengineering/stories/space/844/career-journeys)
