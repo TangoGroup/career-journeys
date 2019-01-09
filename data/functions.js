@@ -25,7 +25,7 @@ const FUNCTIONS = {
       'Ability to organize a team to effectively execute on architectural plans.',
       'Works with cross functional teams to help them understand how our software architecture supports business goals.',
       'Plays a key role in developing multi-year technology strategy for complete and critical areas of the business.',
-      'Partners with the VP of Engineering in their practice area to turn business and product. strategy into architecture strategy, roadmap, and priorities for your', 'practice area.',
+      'Partners with the VP of Engineering in their practice area to turn business and product strategy into architecture strategy, roadmap, and priorities for your', 'practice area.',
       'Represent and communicate the role of architecture, goals and priorities, deliverables, to the business.',
     ],
   },
