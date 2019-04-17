@@ -26,8 +26,9 @@ export const ROLE_EXPECTATIONS = {
     },
     STRATEGIC_CLARITY: {
       behaviors: [
-        'Understands and can Explain Gloo’s Core Purpose / Mission  and Design Principles',
-        'Basic understanding of priorities and goals for the team',
+        'Understands and can explain Gloo’s Core Purpose / Mission and Design Principles',
+        'Understands the priorities and objectives for the team',
+        'Clearly communicates to team members and manager through status updates, comments on code changes and dialog in stories.',
       ],
     },
     LEADERSHIP: {
@@ -66,9 +67,10 @@ export const ROLE_EXPECTATIONS = {
     },
     STRATEGIC_CLARITY: {
       behaviors: [
-        'Can draw connection between some of Gloo’s Products and Strategy and Gloo’s Purpose / Mission and Design Principles.',
-        'Shows interest in learning more about others parts of the company.',
-        'Actively engages in understanding Gloo strategy and impact on the team.',
+        'Can describe connection between Gloo’s Products and Strategy and Gloo’s Purpose / Mission and Design Principles.',
+        'Actively learns more about others parts of Gloo',
+        'Actively engages in understanding Gloo strategy how it impacts the team.',
+        'Actively contributes to the creation and maintenance of documentation',
       ],
     },
     LEADERSHIP: {
@@ -102,8 +104,9 @@ export const ROLE_EXPECTATIONS = {
     },
     STRATEGIC_CLARITY: {
       behaviors: [
-        'Actively engages with broader team in discussions regarding Strategy and Principles. Helps teammates understand how their work connects to overall strategy, purpose and design principles.',
-        'Demonstrates the ability to translate between basic business requirements and technical requirements.',
+        'Actively engages with broader team in discussions regarding Strategy and Principles. Helps teammates understand how their work connects to overall strategy, purpose and what we do.',
+        'Demonstrates the ability to translate between business requirements and technical requirements.',
+        'Actively contributes to team understanding by creating and giving presentations',
       ],
     },
     LEADERSHIP: {
@@ -138,10 +141,11 @@ export const ROLE_EXPECTATIONS = {
     },
     STRATEGIC_CLARITY: {
       behaviors: [
-        'Helps guide product and engineering toward fulfilling Strategy and Design principles. Creates documentation that connects strategy, purpose and design principles with overall team objectives.',
+        'Helps guide product and engineering toward fulfilling Strategy and Design principles.',
         'Identifies appropriate metrics that tie back to business objectives and measures those when making decisions.',
         'Understands various product offerings and how they work together.',
-        'Integrates business needs into project planning.',
+        'Actively works toward balancing team, engineering and Gloo objectives',
+        'Discovers need for and creates and maintains architectural, process and strategic documentation for the team',
       ],
     },
     LEADERSHIP: {
@@ -178,10 +182,11 @@ export const ROLE_EXPECTATIONS = {
     },
     STRATEGIC_CLARITY: {
       behaviors: [
-        'Adds clarity and nuanced understanding to Strategy and Design principles.  Ensure that we are finding effective ways to measure our success against strategy. ',
-        'Can be a representative for engineering in company-level discussions.',
+        'Adds clarity and nuanced understanding to Strategy and Design principles.',
+        'Represents engineering in cross org discussions.',
         'Helps guide their team on broader impact and mentors them on how their decisions impact Gloo.',
         'Aligns technology strategy with product strategy in partnership with Directors and VP.',
+        'Leads team to create and maintain architectural , process and strategic documentation for the engineering organization',
       ],
     },
     LEADERSHIP: {
@@ -251,8 +256,10 @@ export const ROLE_EXPECTATIONS = {
     STRATEGIC_CLARITY: {
       behaviors: [
         'Understands, promotes and clarifies the company vision and principles throughout engineering.',
+        'Represents engineering to outside partners and stakeholders.',
         'Connects the work we’re doing to the principles and goals of the company.',
-        'Demonstrates a deep understanding of entire product feature set.',
+        'Demonstrates a deep understanding future product roadmap.',
+        'Leads the Gloo organization in creating and maintenance of architectural , process and strategic documentation.',
       ],
     },
     LEADERSHIP: {
