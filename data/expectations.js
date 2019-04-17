@@ -141,11 +141,12 @@ export const ROLE_EXPECTATIONS = {
     },
     STRATEGIC_CLARITY: {
       behaviors: [
-        'Helps guide product and engineering toward fulfilling Strategy and Design principles.',
+        'Helps align product and engineering with Gloo Strategy and Design principles.',
         'Identifies appropriate metrics that tie back to business objectives and measures those when making decisions.',
         'Understands various product offerings and how they work together.',
         'Actively works toward balancing team, engineering and Gloo objectives',
         'Discovers need for and creates and maintains architectural, process and strategic documentation for the team',
+        'Discovers , advocates for and drives small to moderately complex process changes to team process',
       ],
     },
     LEADERSHIP: {
@@ -187,6 +188,7 @@ export const ROLE_EXPECTATIONS = {
         'Helps guide their team on broader impact and mentors them on how their decisions impact Gloo.',
         'Aligns technology strategy with product strategy in partnership with Directors and VP.',
         'Leads team to create and maintain architectural , process and strategic documentation for the engineering organization',
+        'Discovers, advocates for and creates buy in from stakeholders to drive complex process or strategy changes across teams',
       ],
     },
     LEADERSHIP: {
@@ -260,6 +262,7 @@ export const ROLE_EXPECTATIONS = {
         'Connects the work we’re doing to the principles and goals of the company.',
         'Demonstrates a deep understanding future product roadmap.',
         'Leads the Gloo organization in creating and maintenance of architectural , process and strategic documentation.',
+        'Discovers, advocates for and successfully improves process or strategy across Gloo organization',
       ],
     },
     LEADERSHIP: {
