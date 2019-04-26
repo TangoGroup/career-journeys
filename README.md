@@ -31,3 +31,6 @@ For people who want to make simple changes straight in github's web app.
 
 ## Clubhouse
 If you are not comfortable proposing changes via Pull Request, you can create a story in the [Career Journeys Clubhouse project](https://app.clubhouse.io/glooengineering/stories/space/844/career-journeys)
+
+# Versions
+[February 2019](https://career-journeys-feb-2019.now.sh/)
