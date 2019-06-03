@@ -1,12 +1,12 @@
-import FunctionList from '../components/FunctionList';
 import SideNavLayout from '../components/SideNavLayout';
+import FunctionsOverview from '../md/FunctionsOverview.mdx';
 
 const Function = () => (
   <SideNavLayout>
     <SideNavLayout.Nav>
     </SideNavLayout.Nav>
     <SideNavLayout.Content>
-      <FunctionList />
+      <FunctionsOverview />
     </SideNavLayout.Content>
   </SideNavLayout>
 );
