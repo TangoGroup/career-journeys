@@ -10,17 +10,25 @@ const styles = css`
   .grid {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
+    align-content: center;
   }
 `;
 
-export const roleLinkStyles = css`
-  display: block;
-  text-align: center;
-  padding: 1.6rem;
-  margin: 0.8rem;
-  background-color: ${THEME.colors.green};
-  color: #fff;
-  text-decoration: none;
+export const roleStyles = css`
+  .role {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 1.6rem;
+    margin: 0.8rem;
+    background-color: ${THEME.colors.green};
+  }
+
+  .role a {
+    color: #fff;
+    text-decoration: none;
+  }
 
   .associate-engineer, .engineer, .senior-engineer {
     grid-column: 3 / span 3;
@@ -51,4 +59,17 @@ export const roleLinkStyles = css`
   }
 `;
 
+export const functionStyles = css`
+  .function {
+    display: block;
+    margin-top: 0.8rem;
+    padding: 0.8rem 0;
+    background-color: ${THEME.colors.yellow};
+  }
+
+  .function a {
+    color: #fff;
+    text-decoration: none;
+  }
+`;
 export default styles;
