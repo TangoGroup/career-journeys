@@ -11,6 +11,16 @@ const styles = css`
     display: grid;
     grid-template-columns: repeat(7, 1fr);
   }
+`;
+
+export const roleLinkStyles = css`
+  display: block;
+  text-align: center;
+  padding: 1.6rem;
+  margin: 0.8rem;
+  background-color: ${THEME.colors.green};
+  color: #fff;
+  text-decoration: none;
 
   .associate-engineer, .engineer, .senior-engineer {
     grid-column: 3 / span 3;
@@ -38,14 +48,6 @@ const styles = css`
   .engineering-director {
     grid-row: 6;
     grid-column: 5 / span 3;
-  }
-
-  .role {
-    text-align: center;
-    padding: 1.6rem;
-    margin: 0.8rem;
-    background-color: ${THEME.colors.green};
-    color: #fff;
   }
 `;
 

@@ -1,20 +1,27 @@
-import styles from './RolesDiagram.styles';
+import styles, { roleLinkStyles } from './RolesDiagram.styles';
 import ROLES from '../data/roles';
 
 const RolesDiagram = () => (
   <div className="root">
     <div className="grid">
-      <div className="role associate-engineer">{ROLES.ASSOCIATE_ENGINEER.title}</div>
-      <div className="role engineer">{ROLES.ENGINEER.title}</div>
-      <div className="role senior-engineer">{ROLES.SENIOR_ENGINEER.title}</div>
-      <div className="role staff-engineer">{ROLES.STAFF_ENGINEER.title}</div>
-      <div className="role senior-staff-engineer">{ROLES.SENIOR_STAFF_ENGINEER.title}</div>
-      <div className="role engineering-manager">{ROLES.ENGINEERING_MANAGER.title}</div>
-      <div className="role principal-engineer">{ROLES.PRINCIPAL_ENGINEER.title}</div>
-      <div className="role engineering-director">{ROLES.ENGINEERING_DIRECTOR.title}</div>
+      <RoleLink className="associate-engineer" roleKey="ASSOCIATE_ENGINEER" />
+      <RoleLink className="engineer" roleKey="ENGINEER" />
+      <RoleLink className="senior-engineer" roleKey="SENIOR_ENGINEER" />
+      <RoleLink className="staff-engineer" roleKey="STAFF_ENGINEER" />
+      <RoleLink className="senior-staff-engineer" roleKey="SENIOR_STAFF_ENGINEER" />
+      <RoleLink className="engineering-manager" roleKey="ENGINEERING_MANAGER" />
+      <RoleLink className="principal-engineer" roleKey="PRINCIPAL_ENGINEER" />
+      <RoleLink className="engineering-director" roleKey="ENGINEERING_DIRECTOR" />
     </div>
     <style jsx>{styles}</style>
   </div>
+);
+
+const RoleLink = ({ className, roleKey }) => (
+  <a href={`#${roleKey}`} className={`role ${className}`}>
+    { ROLES[roleKey].title}
+    <style jsx>{roleLinkStyles}</style>
+  </a>
 );
 
 export default RolesDiagram;
