@@ -1,12 +1,12 @@
-import styles from './FunctionNavigation.styles';
+import styles from './LeftNav.styles';
 
 const FunctionNavigation = () => (
   <div>
-    <div>
-      <a href="#team-architect" className="function-link">Team Architect</a>
+    <div className="nav-link">
+      <a href="#team-architect">Team Architect</a>
     </div>
     <div>
-      <a href="#team-lead" className="function-link">Team Lead</a>
+      <a href="#team-lead">Team Lead</a>
     </div>
     <style jsx>{styles}</style>
   </div>

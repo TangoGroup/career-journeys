@@ -1,4 +1,4 @@
-import styles from './SkillNavigation.styles';
+import styles from './LeftNav.styles';
 import SKILLS from '../data/skills';
 
 const SkillNavigation = () => (
