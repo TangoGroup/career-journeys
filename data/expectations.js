@@ -146,7 +146,7 @@ export const ROLE_EXPECTATIONS = {
         'Understands various product offerings and how they work together.',
         'Actively works toward balancing team, engineering and Gloo objectives',
         'Discovers need for and creates and maintains architectural, process and strategic documentation for the team',
-        'Discovers , advocates for and drives small to moderately complex process changes to team process',
+        'Discovers, advocates for and drives small to moderately complex process changes to team process',
       ],
     },
     LEADERSHIP: {
