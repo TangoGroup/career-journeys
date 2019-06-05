@@ -262,7 +262,7 @@ export const ROLE_EXPECTATIONS = {
         'Connects the work we’re doing to the principles and goals of the company.',
         'Demonstrates a deep understanding future product roadmap.',
         'Leads the Gloo organization in creating and maintenance of architectural , process and strategic documentation.',
-        'Discovers, advocates for and successfully improves process or strategy across Gloo organization',
+        'Discovers, advocates for, and successfully improves process or strategy across Gloo organization',
       ],
     },
     LEADERSHIP: {
