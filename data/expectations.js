@@ -187,7 +187,7 @@ export const ROLE_EXPECTATIONS = {
         'Represents engineering in cross-org discussions.',
         'Helps guide their team on broader impact and mentors them on how their decisions impact Gloo.',
         'Aligns technology strategy with product strategy in partnership with Directors and VP.',
-        'Leads team to create and maintain architectural , process and strategic documentation for the engineering organization',
+        'Leads team to create and maintain architectural, process and strategic documentation for the engineering organization',
         'Discovers, advocates for and creates buy in from stakeholders to drive complex process or strategy changes across teams',
       ],
     },
