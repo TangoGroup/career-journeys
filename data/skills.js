@@ -9,7 +9,7 @@ const SKILLS = {
   },
   STRATEGIC_CLARITY: {
     name: 'Strategic Clarity',
-    description: 'Contributes to Gloo’s organizational goals with a deep understanding of purpose, mission and business strategy.',
+    description: 'Contributes to teams understanding Gloo’s and Engineering’s by contributing to documentation, conversations and presentations around our collective purpose, mission and strategy.',
   },
   COLLABORATION: {
     name: 'Collaboration',
