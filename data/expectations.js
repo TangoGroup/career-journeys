@@ -184,7 +184,7 @@ export const ROLE_EXPECTATIONS = {
     STRATEGIC_CLARITY: {
       behaviors: [
         'Adds clarity and nuanced understanding to Strategy and Design principles.',
-        'Represents engineering in cross org discussions.',
+        'Represents engineering in cross-org discussions.',
         'Helps guide their team on broader impact and mentors them on how their decisions impact Gloo.',
         'Aligns technology strategy with product strategy in partnership with Directors and VP.',
         'Leads team to create and maintain architectural , process and strategic documentation for the engineering organization',
