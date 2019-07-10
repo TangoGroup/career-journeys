@@ -1,4 +1,4 @@
-import styles from './RoleNavigation.styles';
+import styles from './LeftNav.styles';
 
 const RoleNavigation = (props) => {
   const { roles } = props;
@@ -6,7 +6,7 @@ const RoleNavigation = (props) => {
     <div>
       {roles.map(role => (
         <div key={role.key}>
-          <a href={`#${role.key}`} className="role-link">{role.title}</a>
+          <a href={`#${role.key}`}>{role.title}</a>
         </div>
       ))}
       <style jsx>{styles}</style>
